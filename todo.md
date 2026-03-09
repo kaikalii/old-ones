@@ -12,7 +12,6 @@
   - Barrel collection
   - Allay spawning?
   - Elevation?
-- Chest loot replacement
 - Chest minecart loot replacement
 - Villager trade replacement
 - WT trade replacement

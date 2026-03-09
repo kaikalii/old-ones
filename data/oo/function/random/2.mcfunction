@@ -1,0 +1,1 @@
+return run function oo:random/random {n:2}

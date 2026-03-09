@@ -1,0 +1,2 @@
+# Replace the container in front of players that looted a chest the previous tick
+execute as @a[tag=looting_now] run function oo:hitscan {f:"if block ~ ~ ~ #oo:container run return run function oo:replace/container"}

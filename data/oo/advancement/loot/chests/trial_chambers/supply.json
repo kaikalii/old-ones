@@ -1,0 +1,14 @@
+{
+    "parent": "oo:loot/all",
+    "criteria": {
+        "open": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/trial_chambers/supply"
+            }
+        }
+    },
+    "rewards": {
+        "function": "oo:replace/generated_loot"
+    }
+}

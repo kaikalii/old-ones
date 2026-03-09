@@ -289,3 +289,23 @@ Blasting ← Impl⊙("blasting" 8)
 ⊃Smelting Blasting"copper"
 ⊃Smelting Blasting"gold"
 Blasting"iron"
+
+# Loot chests
+⊸≠@\n&fras "chest_loot_tables.txt"
+⊜(&fwa⊃$"data/oo/advancement/loot/_"(
+  ↘¯5
+  $$ {
+  $$     "parent": "oo:loot/all",
+  $$     "criteria": {
+  $$         "open": {
+  $$             "trigger": "player\_generates\_container\_loot",
+  $$             "conditions": {
+  $$                 "loot\_table": "_"
+  $$             }
+  $$         }
+  $$     },
+  $$     "rewards": {
+  $$         "function": "oo:replace/generated\_loot"
+  $$     }
+  $$ }
+))
