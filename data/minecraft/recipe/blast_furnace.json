@@ -2,16 +2,13 @@
   "type": "crafting_shaped",
   "category": "misc",
   "key": {
-    "#": [
-      "cobbled_deepslate",
-      "basalt",
-      "blackstone"
-    ],
+    "#": "#oo:blast_furnace_top",
+    "=": "#oo:strong_ingot",
     "_": "smooth_stone"
   },
   "pattern": [
     "###",
-    "# #",
+    "= =",
     "___"
   ],
   "result": {

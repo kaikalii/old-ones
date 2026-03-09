@@ -3,8 +3,8 @@
   "category": "blocks",
   "cookingtime": 100,
   "experience": 0.1,
-  "ingredient": "red_sand",
+  "ingredient": "sand",
   "result": {
-    "id": "orange_stained_glass"
+    "id": "glass"
   }
 }

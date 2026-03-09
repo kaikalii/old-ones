@@ -5,11 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "cobbled_deepslate",
-              "basalt",
-              "blackstone"
-            ]
+            "items": "#oo:blast_furnace_top"
           }
         ]
       },
@@ -19,9 +15,17 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "smooth_stone"
-            ]
+            "items": "smooth_stone"
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "has_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#oo:strong_ingot"
           }
         ]
       },
@@ -38,7 +42,8 @@
     [
       "has_the_recipe",
       "has_top",
-      "has_bottom"
+      "has_bottom",
+      "has_ingot"
     ]
   ],
   "rewards": {

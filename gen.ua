@@ -44,11 +44,13 @@ ColorNames ← {"white" "orange" "magenta" "light_blue" "yellow" "lime" "pink" "
       | ˙$"_\_ingot\_from\_smelting\_nether\__\_ore"
       | ˙$"_\_ingot\_from\_blasting\_nether\__\_ore"
       ) "gold"
+    ˙Ore "coal"
     ˙Ore "redstone"
     Ore "lapis_lazuli" "lapis"
     ˙Ore "diamond"
     ˙Ore "emerald"
     "quartz"
+    "quartz_from_blasting"
     "netherite_scrap"
     "stone"}
   )

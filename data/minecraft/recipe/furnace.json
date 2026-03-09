@@ -3,10 +3,7 @@
   "category": "misc",
   "key": {
     "#": "#stone_crafting_materials",
-    "_": [
-      "stone",
-      "basalt"
-    ]
+    "_": "#oo:furnace_bottom"
   },
   "pattern": [
     "###",

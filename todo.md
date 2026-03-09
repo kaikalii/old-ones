@@ -12,12 +12,9 @@
   - Barrel collection
   - Allay spawning?
   - Elevation?
-- No iron from golem
-- Chest item replacement
-- Chest minecart item replacement
+- Chest loot replacement
+- Chest minecart loot replacement
 - Villager trade replacement
 - WT trade replacement
-- Copper in smithing table recipe
-- Copper in cauldron recipe
 - Do something about buckets
 - Advancements
