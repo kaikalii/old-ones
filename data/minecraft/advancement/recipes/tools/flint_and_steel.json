@@ -1,0 +1,99 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_flint": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:flint"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:obsidian"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has1": {
+      "conditions": {
+        "recipe": "minecraft:flint_and_steel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has2": {
+      "conditions": {
+        "recipe": "minecraft:flint_and_steel2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has3": {
+      "conditions": {
+        "recipe": "minecraft:flint_and_steel3"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has4": {
+      "conditions": {
+        "recipe": "minecraft:flint_and_steel4"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has5": {
+      "conditions": {
+        "recipe": "minecraft:flint_and_steel5"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has6": {
+      "conditions": {
+        "recipe": "minecraft:flint_and_steel6"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has7": {
+      "conditions": {
+        "recipe": "minecraft:flint_and_steel7"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has8": {
+      "conditions": {
+        "recipe": "minecraft:flint_and_steel8"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has1",
+      "has2",
+      "has3",
+      "has4",
+      "has5",
+      "has6",
+      "has7",
+      "has8",
+      "has_flint",
+      "has_obsidian"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:flint_and_steel",
+      "minecraft:flint_and_steel2",
+      "minecraft:flint_and_steel3",
+      "minecraft:flint_and_steel4",
+      "minecraft:flint_and_steel5",
+      "minecraft:flint_and_steel6",
+      "minecraft:flint_and_steel7",
+      "minecraft:flint_and_steel8"
+    ]
+  }
+}

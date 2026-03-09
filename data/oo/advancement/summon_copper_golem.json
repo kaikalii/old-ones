@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "summoned": {
+            "trigger": "summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "copper_golem"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "oo:copper_golem/summoned"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category":"equipment",
+    "pattern": [
+        "# #",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "light_blue_wool"
+    },
+    "group": "wool_chestplate",
+    "result": {
+        "id": "leather_chestplate",
+        "components": {
+            "item_name": "Wool Shirt",
+            "dyed_color": 3847130,
+            "attribute_modifiers": [
+                {
+                    "type": "armor",
+                    "operation": "add_value",
+                    "id": "oo:wool_armor",
+                    "amount": 1,
+                    "slot": "any"
+                }
+            ]
+        }
+    }
+}

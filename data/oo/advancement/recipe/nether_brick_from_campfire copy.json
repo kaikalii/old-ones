@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "has_netherrack": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "netherrack"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "oo:nether_brick_from_campfire"
+        ]
+    }
+}

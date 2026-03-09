@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:flint","#oo:tinder","#oo:tinder","#oo:tinder","#oo:tinder","#oo:tinder","#oo:tinder","#oo:tinder","#oo:tinder"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:flint_and_steel",
+    "components": {
+      "damage": 0,
+      "item_name": "Firestarter"
+    }
+  },
+  "group": "flint_and_steel"
+}

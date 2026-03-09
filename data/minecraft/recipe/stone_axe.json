@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "|": "minecraft:stick",
+    "<": "minecraft:flint"
+  },
+  "pattern": [
+    "<|",
+    " |"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:stone_axe"
+  }
+}

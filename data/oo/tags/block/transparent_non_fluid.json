@@ -1,0 +1,10 @@
+{
+    "values": [
+        "air",
+        "wall_torch",
+        "piston_head",
+        "pointed_dripstone",
+        "#wall_post_override",
+        "#small_flowers"
+    ]
+}

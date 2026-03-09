@@ -1,0 +1,7 @@
+{
+    "type": "campfire_cooking",
+    "ingredient": "netherrack",
+    "result": {
+        "id": "nether_brick"
+    }
+}

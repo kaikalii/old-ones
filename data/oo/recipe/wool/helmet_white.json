@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category":"equipment",
+    "pattern": [
+        "###",
+        "# #"
+    ],
+    "key": {
+        "#": "white_wool"
+    },
+    "group": "wool_helmet",
+    "result": {
+        "id": "leather_helmet",
+        "components": {
+            "item_name": "Wool Hat",
+            "dyed_color": 16383998,
+            "attribute_modifiers": [
+                {
+                    "type": "armor",
+                    "operation": "add_value",
+                    "id": "oo:wool_armor",
+                    "amount": 1,
+                    "slot": "any"
+                }
+            ]
+        }
+    }
+}

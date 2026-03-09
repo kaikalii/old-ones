@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category":"equipment",
+    "pattern": [
+        "# #",
+        "# #"
+    ],
+    "key": {
+        "#": "light_blue_wool"
+    },
+    "group": "wool_boots",
+    "result": {
+        "id": "leather_boots",
+        "components": {
+            "item_name": "Wool Shoes",
+            "dyed_color": 3847130,
+            "attribute_modifiers": [
+                {
+                    "type": "armor",
+                    "operation": "add_value",
+                    "id": "oo:wool_armor",
+                    "amount": 1,
+                    "slot": "any"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_wool": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#wool"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_wool"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "oo:wool/helmet_white",
+            "oo:wool/helmet_orange",
+            "oo:wool/helmet_magenta",
+            "oo:wool/helmet_light_blue",
+            "oo:wool/helmet_yellow",
+            "oo:wool/helmet_lime",
+            "oo:wool/helmet_pink",
+            "oo:wool/helmet_gray",
+            "oo:wool/helmet_light_gray",
+            "oo:wool/helmet_cyan",
+            "oo:wool/helmet_purple",
+            "oo:wool/helmet_blue",
+            "oo:wool/helmet_brown",
+            "oo:wool/helmet_green",
+            "oo:wool/helmet_red",
+            "oo:wool/helmet_black",
+            "oo:wool/chestplate_white",
+            "oo:wool/chestplate_orange",
+            "oo:wool/chestplate_magenta",
+            "oo:wool/chestplate_light_blue",
+            "oo:wool/chestplate_yellow",
+            "oo:wool/chestplate_lime",
+            "oo:wool/chestplate_pink",
+            "oo:wool/chestplate_gray",
+            "oo:wool/chestplate_light_gray",
+            "oo:wool/chestplate_cyan",
+            "oo:wool/chestplate_purple",
+            "oo:wool/chestplate_blue",
+            "oo:wool/chestplate_brown",
+            "oo:wool/chestplate_green",
+            "oo:wool/chestplate_red",
+            "oo:wool/chestplate_black",
+            "oo:wool/leggings_white",
+            "oo:wool/leggings_orange",
+            "oo:wool/leggings_magenta",
+            "oo:wool/leggings_light_blue",
+            "oo:wool/leggings_yellow",
+            "oo:wool/leggings_lime",
+            "oo:wool/leggings_pink",
+            "oo:wool/leggings_gray",
+            "oo:wool/leggings_light_gray",
+            "oo:wool/leggings_cyan",
+            "oo:wool/leggings_purple",
+            "oo:wool/leggings_blue",
+            "oo:wool/leggings_brown",
+            "oo:wool/leggings_green",
+            "oo:wool/leggings_red",
+            "oo:wool/leggings_black",
+            "oo:wool/boots_white",
+            "oo:wool/boots_orange",
+            "oo:wool/boots_magenta",
+            "oo:wool/boots_light_blue",
+            "oo:wool/boots_yellow",
+            "oo:wool/boots_lime",
+            "oo:wool/boots_pink",
+            "oo:wool/boots_gray",
+            "oo:wool/boots_light_gray",
+            "oo:wool/boots_cyan",
+            "oo:wool/boots_purple",
+            "oo:wool/boots_blue",
+            "oo:wool/boots_brown",
+            "oo:wool/boots_green",
+            "oo:wool/boots_red",
+            "oo:wool/boots_black",
+            "oo:wool/horse_armor_white",
+            "oo:wool/horse_armor_orange",
+            "oo:wool/horse_armor_magenta",
+            "oo:wool/horse_armor_light_blue",
+            "oo:wool/horse_armor_yellow",
+            "oo:wool/horse_armor_lime",
+            "oo:wool/horse_armor_pink",
+            "oo:wool/horse_armor_gray",
+            "oo:wool/horse_armor_light_gray",
+            "oo:wool/horse_armor_cyan",
+            "oo:wool/horse_armor_purple",
+            "oo:wool/horse_armor_blue",
+            "oo:wool/horse_armor_brown",
+            "oo:wool/horse_armor_green",
+            "oo:wool/horse_armor_red",
+            "oo:wool/horse_armor_black"
+        ]
+    }
+}

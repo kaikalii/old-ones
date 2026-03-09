@@ -1,0 +1,2 @@
+$summon $(id)
+kill @s

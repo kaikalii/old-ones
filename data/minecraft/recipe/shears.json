@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "flint"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:shears",
+    "components": {
+      "item_name": "Stone Blade",
+      "item_model": "flint",
+      "tool": {
+        "damage_per_block": 2,
+        "rules": []
+      },
+      "attribute_modifiers": [
+        {
+          "type": "attack_damage",
+          "id": "oo:attack_damage",
+          "amount": 3,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "override",
+            "value": {
+              "text": " 4 ",
+              "color": "#00a000",
+              "extra": [
+                {
+                  "translate": "attribute.name.attack_damage"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{count:1}}] if data entity @s Thrower at @s run function oo:throw/try_place

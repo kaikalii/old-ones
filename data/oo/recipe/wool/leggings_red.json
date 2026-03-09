@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category":"equipment",
+    "pattern": [
+        "###",
+        "# #",
+        "# #"
+    ],
+    "key": {
+        "#": "red_wool"
+    },
+    "group": "wool_leggings",
+    "result": {
+        "id": "leather_leggings",
+        "components": {
+            "item_name": "Wool Pants",
+            "dyed_color": 11546150,
+            "attribute_modifiers": [
+                {
+                    "type": "armor",
+                    "operation": "add_value",
+                    "id": "oo:wool_armor",
+                    "amount": 1,
+                    "slot": "any"
+                }
+            ]
+        }
+    }
+}

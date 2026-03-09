@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category":"equipment",
+    "pattern": [
+        "# #",
+        "###",
+        "# #"
+    ],
+    "key": {
+        "#": "cyan_wool"
+    },
+    "group": "wool_horse_armor",
+    "result": {
+        "id": "leather_horse_armor",
+        "components": {
+            "item_name": "Wool Caparison",
+            "dyed_color": 1481884,
+            "attribute_modifiers": [
+                {
+                    "type": "armor",
+                    "operation": "add_value",
+                    "id": "oo:wool_armor",
+                    "amount": 1,
+                    "slot": "any"
+                }
+            ]
+        }
+    }
+}

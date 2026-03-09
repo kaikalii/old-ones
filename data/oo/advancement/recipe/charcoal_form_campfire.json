@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "has_log": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#logs_that_burn"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "oo:charcoal_from_campfire"
+        ]
+    }
+}
