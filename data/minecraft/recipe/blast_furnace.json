@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": [
+      "cobbled_deepslate",
+      "basalt",
+      "blackstone"
+    ],
+    "_": "smooth_stone"
+  },
+  "pattern": [
+    "###",
+    "# #",
+    "___"
+  ],
+  "result": {
+    "count": 1,
+    "id": "blast_furnace"
+  }
+}

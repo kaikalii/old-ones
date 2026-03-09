@@ -1,0 +1,10 @@
+{
+    "type": "smelting",
+    "category": "blocks",
+    "cookingtime": 200,
+    "experience": 0.1,
+    "ingredient": "sand",
+    "result": {
+        "id": "glass"
+    }
+}

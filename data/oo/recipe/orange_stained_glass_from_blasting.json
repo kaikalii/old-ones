@@ -1,0 +1,10 @@
+{
+  "type": "blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": "red_sand",
+  "result": {
+    "id": "glass"
+  }
+}

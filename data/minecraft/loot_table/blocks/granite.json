@@ -27,48 +27,29 @@
           "condition": "survives_explosion"
         },
         {
-          "condition": "match_tool",
-          "predicate": {
-            "items": "#axes"
+          "condition": "inverted",
+          "term": {
+            "condition": "match_tool",
+            "predicate": {
+              "items": "#pickaxes"
+            }
           }
         }
       ],
       "entries": [
+        {
+          "type": "item",
+          "name": "granite",
+          "weight": 15
+        },
         {
           "type": "item",
           "name": "red_sand",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": 0.4
-            }
-          ]
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "conditions": [
-        {
-          "condition": "survives_explosion"
+          "weight": 15
         },
         {
-          "condition": "match_tool",
-          "predicate": {
-            "items": "#axes"
-          }
-        }
-      ],
-      "entries": [
-        {
           "type": "item",
-          "name": "flint",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": 0.05
-            }
-          ]
+          "name": "flint"
         }
       ],
       "rolls": 1.0

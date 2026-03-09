@@ -1,0 +1,49 @@
+{
+  "parent": "recipes/root",
+  "criteria": {
+    "has_top": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cobbled_deepslate",
+              "basalt",
+              "blackstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "has_bottom": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "smooth_stone"
+            ]
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "blast_furnace"
+      },
+      "trigger": "recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_top",
+      "has_bottom"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "blast_furnace"
+    ]
+  }
+}

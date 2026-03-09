@@ -5,6 +5,7 @@ ColorNames ← {"white" "orange" "magenta" "light_blue" "yellow" "lime" "pink" "
   # Tools and armor
   {
     "wooden_axe"
+    "wooden_sword"
     "wooden_pickaxe"
     "stone_sword"
     "stone_pickaxe"
@@ -18,50 +19,42 @@ ColorNames ← {"white" "orange" "magenta" "light_blue" "yellow" "lime" "pink" "
     "chestplate"
     "leggings"
     "boots"}
-   {"copper""iron""diamond"}
+   {"diamond"}
    ♭⊞⍚$"_\__"
   )
 
   # Ingot smelting
   (SmeltingOre ← ⊃(
-    | ˙$"_\_from\_smelting\__\_ore"
-    | ˙$"_\_from\_smelting\_deepslate\__\_ore"
+    | $"_\_from\_smelting\__\_ore"
+    | $"_\_from\_smelting\_deepslate\__\_ore"
+    )
+   BlastingOre ← ⊃(
+    | $"_\_from\_blasting\__\_ore"
+    | $"_\_from\_blasting\_deepslate\__\_ore"
     )
    Smelting ← ⊃(
-    | $"_\_nugget\_from\_smelting"
-    | ˙$"_\_ingot\_from\_smelting\_raw\__"
-    | ˙$"_\_ingot\_from\_smelting\__\_ore"
-    | ˙$"_\_ingot\_from\_smelting\_deepslate\__\_ore"
+    | ⋅$"_\_nugget\_from\_smelting"
+    | $"_\_from\_smelting\_raw\__"
+    | SmeltingOre
     )
-   Blasting ← ⊃(
-    | $"_\_nugget\_from\_blasting"
-    | ˙$"_\_ingot\_from\_blasting\_raw\__"
-    | ˙$"_\_ingot\_from\_blasting\__\_ore"
-    | ˙$"_\_ingot\_from\_blasting\_deepslate\__\_ore"
-    )
-   {⊃Smelting Blasting "iron"
-    Smelting "copper"
-    ⊃Smelting˙$"_\_ingot\_from\_smelting\_nether\__\_ore" "gold"
-    SmeltingOre "redstone"
-    SmeltingOre "lapis"
-    SmeltingOre "diamond"
-    SmeltingOre "emerald"
-    "lapis_lazuli_from_smelting_lapis_ore"
-    "lapis_lazuli_from_smelting_deepslate_lapis_ore"
+   Ore ← ⊃SmeltingOre BlastingOre
+   {⊃Smelting BlastingOre "iron_ingot" "iron"
+    Ore "copper_ingot" "copper"
+    ⊃(Ore "gold_ingot"
+      | ˙$"_\_ingot\_from\_smelting\_nether\__\_ore"
+      | ˙$"_\_ingot\_from\_blasting\_nether\__\_ore"
+      ) "gold"
+    ˙Ore "redstone"
+    Ore "lapis_lazuli" "lapis"
+    ˙Ore "diamond"
+    ˙Ore "emerald"
     "quartz"
-    "netherite_scrap"}
+    "netherite_scrap"
+    "stone"}
   )
 
   # Others
-  {"anvil"
-   "minecart"
-   "rail"
-   "activator_rail"
-   "detector_rail"
-   "powered_rail"
-   "piston"
-   "hopper"
-   "crafter"
+  {"hopper"
    "enchanting_table"}
 }
 /◇⊂₃",\n      "⍚$$ {"namespace": "minecraft", "path": "recipe/_.json"}

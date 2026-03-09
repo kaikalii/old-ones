@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        "wooden_spear"
+    ],
+    "result": {
+        "id": "stick"
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#stone_crafting_materials",
+    "_": [
+      "stone",
+      "basalt"
+    ]
+  },
+  "pattern": [
+    "###",
+    "# #",
+    "___"
+  ],
+  "result": {
+    "count": 1,
+    "id": "furnace"
+  }
+}

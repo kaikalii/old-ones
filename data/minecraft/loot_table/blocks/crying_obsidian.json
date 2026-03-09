@@ -16,7 +16,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "diorite"
+          "name": "crying_obsidian"
         }
       ],
       "rolls": 1.0
@@ -39,21 +39,40 @@
       "entries": [
         {
           "type": "item",
-          "name": "diorite",
-          "weight": 15
+          "name": "obsidian"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "conditions": [
+        {
+          "condition": "survives_explosion"
         },
         {
-          "type": "item",
-          "name": "sand",
-          "weight": 15
-        },
+          "condition": "inverted",
+          "term": {
+            "condition": "match_tool",
+            "predicate": {
+              "items": "#pickaxes"
+            }
+          }
+        }
+      ],
+      "entries": [
         {
           "type": "item",
-          "name": "flint"
+          "name": "purple_dye",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.1
+            }
+          ]
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "blocks/diorite"
+  "random_sequence": "blocks/crying_obsidian"
 }

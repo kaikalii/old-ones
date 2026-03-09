@@ -1,0 +1,7 @@
+{
+  "values": [
+    "#minecraft:needs_diamond_tool",
+    "#oo:needs_iron_tool_for_real"
+  ],
+  "replace": true
+}

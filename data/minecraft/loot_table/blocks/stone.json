@@ -16,7 +16,11 @@
       "entries": [
         {
           "type": "item",
-          "name": "diorite"
+          "name": "stone"
+        },
+        {
+          "type": "item",
+          "name": "cobblestone"
         }
       ],
       "rolls": 1.0
@@ -39,13 +43,18 @@
       "entries": [
         {
           "type": "item",
-          "name": "diorite",
-          "weight": 15
+          "name": "stone",
+          "weight": 10
         },
         {
           "type": "item",
-          "name": "sand",
-          "weight": 15
+          "name": "cobblestone",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gravel",
+          "weight": 10
         },
         {
           "type": "item",
@@ -55,5 +64,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "blocks/diorite"
+  "random_sequence": "blocks/stone"
 }
