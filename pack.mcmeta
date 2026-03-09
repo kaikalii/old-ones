@@ -77,7 +77,6 @@
       {"namespace": "minecraft", "path": "recipe/redstone_from_smelting_deepslate_redstone_ore.json"},
       {"namespace": "minecraft", "path": "recipe/redstone_from_smelting_redstone_ore.json"},
       {"namespace": "minecraft", "path": "recipe/stone_pickaxe.json"},
-      {"namespace": "minecraft", "path": "recipe/stone_shovel.json"},
       {"namespace": "minecraft", "path": "recipe/stone_sword.json"},
       {"namespace": "minecraft", "path": "recipe/wooden_axe.json"},
       {"namespace": "minecraft", "path": "recipe/wooden_pickaxe.json"}

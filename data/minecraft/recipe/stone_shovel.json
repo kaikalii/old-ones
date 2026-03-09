@@ -3,15 +3,16 @@
   "category": "equipment",
   "key": {
     "|": "minecraft:stick",
-    "<": "minecraft:flint",
+    "^": "minecraft:flint",
     "s": "#oo:tie"
   },
   "pattern": [
-    "<s",
-    " |"
+    "^",
+    "S",
+    "|"
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:stone_axe"
+    "id": "minecraft:stone_shovel"
   }
 }

@@ -40,10 +40,26 @@
           "conditions": [
             {
               "condition": "random_chance",
-              "chance": 0.7
+              "chance": 0.4
             }
           ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "conditions": [
+        {
+          "condition": "survives_explosion"
         },
+        {
+          "condition": "match_tool",
+          "predicate": {
+            "items": "#axes"
+          }
+        }
+      ],
+      "entries": [
         {
           "type": "item",
           "name": "flint",

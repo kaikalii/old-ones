@@ -2,16 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "|": "minecraft:stick",
-    "^": "minecraft:flint"
+    "/": "minecraft:stick",
+    "^": "minecraft:flint",
+    "s": "#oo:tie"
   },
   "pattern": [
     "  /",
-    "^/ ",
-    "/ "
+    " / ",
+    "s^ "
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:stone_axe"
+    "id": "minecraft:stone_hoe"
   }
 }

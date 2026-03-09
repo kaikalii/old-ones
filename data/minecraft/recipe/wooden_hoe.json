@@ -2,16 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "|": "minecraft:stick",
-    "<": "minecraft:flint",
+    "/": "minecraft:stick",
     "s": "#oo:tie"
   },
   "pattern": [
-    "<s",
-    " |"
+    "  /",
+    " / ",
+    "s/ "
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:stone_axe"
+    "id": "minecraft:wooden_hoe"
   }
 }

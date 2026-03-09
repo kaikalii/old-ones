@@ -8,7 +8,6 @@ ColorNames ← {"white" "orange" "magenta" "light_blue" "yellow" "lime" "pink" "
     "wooden_pickaxe"
     "stone_sword"
     "stone_pickaxe"
-    "stone_shovel"
   }
   ({"pickaxe"
     "axe"
