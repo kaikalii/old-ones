@@ -1,0 +1,62 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "survives_explosion"
+        },
+        {
+          "condition": "match_tool",
+          "predicate": {
+            "items": "#pickaxes"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "diorite"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "conditions": [
+        {
+          "condition": "survives_explosion"
+        },
+        {
+          "condition": "match_tool",
+          "predicate": {
+            "items": "#axes"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "sand",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.7
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "flint",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.05
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "blocks/diorite"
+}
