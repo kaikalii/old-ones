@@ -1,4 +1,4 @@
-ColorsNames ← {"white" "orange" "magenta" "light_blue" "yellow" "lime" "pink" "gray" "light_gray" "cyan" "purple" "blue" "brown" "green" "red" "black"}
+ColorNames ← {"white" "orange" "magenta" "light_blue" "yellow" "lime" "pink" "gray" "light_gray" "cyan" "purple" "blue" "brown" "green" "red" "black"}
 
 # Remove recipes
 ⍆/◇⊂{
@@ -145,7 +145,7 @@ $$ }
 )
 
 # Wool clothing recipes
-ColorsNames
+ColorNames
 [16383998 16351261 13061821 3847130 16701501 8439583 15961002 4673362 10329495 1481884 8991416 3949738 8606770 6192150 11546150 1908001]
 ⍉⊟
 {"Hat" "Shirt" "Pants" "Shoes" "Caparison"}
@@ -233,3 +233,37 @@ $$         ]
 $$     }
 $$ }
 &fwa "data/oo/advancement/recipe/wool_armor.json"
+
+# Glass loot tables
+{"" "_pane"}
+⊂□"" ⍚$"_\_stained\_" ColorNames
+⊞⍚(&fwa⊃$"data/minecraft/loot\_table/blocks/_glass_.json"(
+  ◡⊙∘
+  $$ {
+  $$   "type": "block",
+  $$   "pools": [
+  $$     {
+  $$       "bonus\_rolls": 0.0,
+  $$       "conditions": [
+  $$         {
+  $$           "condition": "inverted",
+  $$           "term": {
+  $$             "condition": "match\_tool",
+  $$             "predicate": {
+  $$               "items": "#axes"
+  $$             }
+  $$           }
+  $$         }
+  $$       ],
+  $$       "entries": [
+  $$         {
+  $$           "type": "item",
+  $$           "name": "_glass_"
+  $$         }
+  $$       ],
+  $$       "rolls": 1.0
+  $$     }
+  $$   ],
+  $$   "random\_sequence": "blocks/_glass_"
+  $$ }
+))

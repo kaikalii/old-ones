@@ -1,0 +1,27 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "inverted",
+          "term": {
+            "condition": "match_tool",
+            "predicate": {
+              "items": "#axes"
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "orange_stained_glass_pane"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "blocks/orange_stained_glass_pane"
+}

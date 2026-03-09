@@ -1,0 +1,27 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "inverted",
+          "term": {
+            "condition": "match_tool",
+            "predicate": {
+              "items": "#axes"
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "light_gray_stained_glass"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "blocks/light_gray_stained_glass"
+}
