@@ -1,15 +1,17 @@
 # TODO
 
-- Bundle recipe
 - "Leather" recipe
 - Enchanting system
   - Enchantments based on crafting materials
   - Requires bottle of enchanting
-- Darksight headgear
+  - Darksight
 - Altimeter
 - Make pigs do something
-- Barrel collection mechanics
-- Container drain mechanics
+- Item movement mechanics
+  - Container drain
+  - Barrel collection
+  - Allay spawning?
+  - Elevation?
 - No iron from golem
 - Chest item replacement
 - Chest minecart item replacement
@@ -18,3 +20,4 @@
 - Copper in smithing table recipe
 - Copper in cauldron recipe
 - Do something about buckets
+- Advancements
