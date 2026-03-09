@@ -261,3 +261,31 @@ $$ }
   $$   "random\_sequence": "blocks/_glass_"
   $$ }
 ))
+
+# Ingot smeling
+~Smelt {Metal InpMat InpRecip Output Heat Time Exp} (
+  &fwa⊃(
+    $"data/minecraft/recipe/_\__\_from\___.json" ⊃(Metal|Output|Heat|InpRecip)
+  | ⊃(Heat|Time|Exp|InpMat|Metal|Output)
+    $$ {
+    $$   "type": "_",
+    $$   "category": "misc",
+    $$   "cookingtime": _,
+    $$   "experience": _,
+    $$   "ingredient": "_",
+    $$   "result": {
+    $$     "id": "_\__"
+    $$   }
+    $$ }
+  )
+)
+Impl ← (
+  ⊙⊙(⁅˜÷24000)
+  ⊃(Smelt ⊃(∘|$"raw\__\_block"|$"\_raw\__"|"ingot"|⋅⊙∘|0.9)
+  | Smelt ⊃(∘|$"#oo:smelt\_to\__\_nugget"|""|"nugget"|⋅∘|⋅⋅(⁅÷9)|0.1))
+)
+Smelting ← Impl⊙("smelting" 4)
+Blasting ← Impl⊙("blasting" 8)
+⊃Smelting Blasting"copper"
+⊃Smelting Blasting"gold"
+Blasting"iron"

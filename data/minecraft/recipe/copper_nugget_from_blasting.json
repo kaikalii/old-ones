@@ -1,24 +1,10 @@
 {
-  "type": "minecraft:blasting",
+  "type": "blasting",
   "category": "misc",
   "cookingtime": 333,
   "experience": 0.1,
-  "ingredient": [
-    "minecraft:raw_copper",
-    "minecraft:copper_pickaxe",
-    "minecraft:copper_shovel",
-    "minecraft:copper_axe",
-    "minecraft:copper_hoe",
-    "minecraft:copper_sword",
-    "minecraft:copper_spear",
-    "minecraft:copper_helmet",
-    "minecraft:copper_chestplate",
-    "minecraft:copper_leggings",
-    "minecraft:copper_boots",
-    "minecraft:copper_horse_armor",
-    "minecraft:copper_nautilus_armor"
-  ],
+  "ingredient": "#oo:smelt_to_copper_nugget",
   "result": {
-    "id": "minecraft:copper_nugget"
+    "id": "copper_nugget"
   }
 }

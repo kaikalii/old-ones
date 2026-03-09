@@ -1,28 +1,10 @@
 {
-  "type": "minecraft:blasting",
+  "type": "blasting",
   "category": "misc",
-  "cookingtime": 889,
+  "cookingtime": 333,
   "experience": 0.1,
-  "ingredient": [
-    "minecraft:raw_iron",
-    "minecraft:iron_pickaxe",
-    "minecraft:iron_shovel",
-    "minecraft:iron_axe",
-    "minecraft:iron_hoe",
-    "minecraft:iron_sword",
-    "minecraft:iron_spear",
-    "minecraft:iron_helmet",
-    "minecraft:iron_chestplate",
-    "minecraft:iron_leggings",
-    "minecraft:iron_boots",
-    "minecraft:iron_horse_armor",
-    "minecraft:iron_nautilus_armor",
-    "minecraft:chainmail_helmet",
-    "minecraft:chainmail_chestplate",
-    "minecraft:chainmail_leggings",
-    "minecraft:chainmail_boots"
-  ],
+  "ingredient": "#oo:smelt_to_iron_nugget",
   "result": {
-    "id": "minecraft:iron_nugget"
+    "id": "iron_nugget"
   }
 }
