@@ -3,11 +3,10 @@
   "category": "equipment",
   "key": {
     "|": "stick",
-    "<": "gold_ingot",
-    "s": "#oo:tie"
+    "<": "gold_ingot"
   },
   "pattern": [
-    "<s",
+    "<|",
     " |"
   ],
   "result": {
