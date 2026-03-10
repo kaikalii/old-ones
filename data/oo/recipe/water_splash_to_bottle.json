@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "splash_potion"
+    ],
+    "result": {
+        "id": "potion",
+        "components": {
+            "potion_contents": "water"
+        }
+    }
+}
