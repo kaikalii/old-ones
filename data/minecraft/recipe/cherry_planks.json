@@ -1,0 +1,8 @@
+{
+  "type": "stonecutting",
+  "ingredient": "#cherry_logs",
+  "result": {
+    "id": "cherry_planks",
+    "count": 4
+  }
+}

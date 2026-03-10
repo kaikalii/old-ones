@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "stone",
+    "I": "#oo:strong_ingot"
+  },
+  "pattern": [
+    " I ",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "stonecutter",
+    "components": {
+      "item_name": "Cutter"
+    }
+  }
+}

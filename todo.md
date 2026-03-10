@@ -15,4 +15,3 @@
 - WT trade replacement
 - Do something about buckets
 - Advancements
-- Way to make planks/crafting tables

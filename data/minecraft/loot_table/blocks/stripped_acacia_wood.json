@@ -1,0 +1,76 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "survives_explosion"
+        },
+        {
+          "condition": "inverted",
+          "term": {
+            "condition": "reference",
+            "name": "oo:axe_no_st"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "stripped_acacia_wood"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "reference",
+          "name": "oo:axe_no_st"
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "acacia_planks",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 3
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "reference",
+          "name": "oo:axe_no_st"
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "acacia_planks"
+        },
+        {
+          "type": "item",
+          "name": "stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "blocks/stripped_acacia_wood"
+}

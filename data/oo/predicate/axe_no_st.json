@@ -1,0 +1,29 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "match_tool",
+            "predicate": {
+                "items": "#axes"
+            }
+        },
+        {
+            "condition": "inverted",
+            "term": {
+                "condition": "match_tool",
+                "predicate": {
+                    "predicates": {
+                        "enchantments": [
+                            {
+                                "enchantments": "silk_touch",
+                                "levels": {
+                                    "min": 1
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
