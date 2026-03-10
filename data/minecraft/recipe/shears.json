@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "crafting_shapeless",
   "category": "equipment",
   "ingredients": [
     "flint"
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:shears",
+    "id": "shears",
     "components": {
       "item_name": "Stone Blade",
       "item_model": "flint",

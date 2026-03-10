@@ -8,7 +8,7 @@
                     }
                 ]
             },
-            "trigger": "minecraft:inventory_changed"
+            "trigger": "inventory_changed"
         }
     },
     "rewards": {

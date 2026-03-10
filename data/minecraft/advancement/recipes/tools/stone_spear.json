@@ -1,21 +1,21 @@
 {
-  "parent": "minecraft:recipes/root",
+  "parent": "recipes/root",
   "criteria": {
     "has_flint": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:flint"
+            "items": "flint"
           }
         ]
       },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "inventory_changed"
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:stone_spear"
+        "recipe": "stone_spear"
       },
-      "trigger": "minecraft:recipe_unlocked"
+      "trigger": "recipe_unlocked"
     }
   },
   "requirements": [
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:stone_spear"
+      "stone_spear"
     ]
   }
 }

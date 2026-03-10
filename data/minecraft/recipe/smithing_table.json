@@ -1,8 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "crafting_shaped",
   "category": "misc",
   "key": {
-    "#": "#minecraft:planks",
+    "#": "#planks",
     "@": "#oo:strong_ingot"
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:smithing_table"
+    "id": "smithing_table"
   }
 }

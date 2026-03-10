@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "crafting_shaped",
   "category": "equipment",
   "key": {
     "=": "#oo:strong_ingot",
-    "^": "minecraft:redstone",
+    "^": "redstone",
     "X": "raw_iron"
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:compass"
+    "id": "compass"
   }
 }

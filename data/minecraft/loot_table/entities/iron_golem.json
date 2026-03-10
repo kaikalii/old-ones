@@ -1,27 +1,27 @@
 {
-  "type": "minecraft:entity",
+  "type": "entity",
   "pools": [
     {
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:poppy",
+          "type": "item",
+          "name": "poppy",
           "conditions": [
             {
-              "condition": "minecraft:killed_by_player"
+              "condition": "killed_by_player"
             }
           ],
           "functions": [
             {
               "add": false,
               "count": 1,
-              "function": "minecraft:set_count"
+              "function": "set_count"
             },
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:lore": [
+                "lore": [
                   "Why?"
                 ]
               }
@@ -35,23 +35,23 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
               "add": false,
               "count": {
-                "type": "minecraft:uniform",
+                "type": "uniform",
                 "min": 3.0,
                 "max": 6.0
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:clay_ball"
+          "name": "clay_ball"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:entities/iron_golem"
+  "random_sequence": "entities/iron_golem"
 }

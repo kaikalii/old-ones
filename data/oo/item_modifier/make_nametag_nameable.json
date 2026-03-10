@@ -1,5 +1,5 @@
 {
-    "function": "minecraft:set_components",
+    "function": "set_components",
     "components": {
         "consumable": {
             "consume_seconds": 100,

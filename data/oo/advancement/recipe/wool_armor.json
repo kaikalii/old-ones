@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:recipes/root",
+    "parent": "recipes/root",
     "criteria": {
         "has_wool": {
             "conditions": {
@@ -9,7 +9,7 @@
                     }
                 ]
             },
-            "trigger": "minecraft:inventory_changed"
+            "trigger": "inventory_changed"
         }
     },
     "requirements": [

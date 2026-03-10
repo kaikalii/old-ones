@@ -1,19 +1,19 @@
 {
-  "type": "minecraft:entity",
+  "type": "entity",
   "pools": [
     {
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
               "conditions": [
                 {
-                  "condition": "minecraft:any_of",
+                  "condition": "any_of",
                   "terms": [
                     {
-                      "condition": "minecraft:entity_properties",
+                      "condition": "entity_properties",
                       "entity": "this",
                       "predicate": {
                         "flags": {
@@ -22,15 +22,15 @@
                       }
                     },
                     {
-                      "condition": "minecraft:entity_properties",
+                      "condition": "entity_properties",
                       "entity": "direct_attacker",
                       "predicate": {
                         "equipment": {
                           "mainhand": {
                             "predicates": {
-                              "minecraft:enchantments": [
+                              "enchantments": [
                                 {
-                                  "enchantments": "#minecraft:smelts_loot"
+                                  "enchantments": "#smelts_loot"
                                 }
                               ]
                             }
@@ -41,18 +41,18 @@
                   ]
                 }
               ],
-              "function": "minecraft:furnace_smelt"
+              "function": "furnace_smelt"
             },
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:custom_data": {
+                "custom_data": {
                   "Alive": 0
                 }
               }
             }
           ],
-          "name": "minecraft:cod"
+          "name": "cod"
         }
       ],
       "rolls": 1.0
@@ -62,17 +62,17 @@
       "conditions": [
         {
           "chance": 0.05,
-          "condition": "minecraft:random_chance"
+          "condition": "random_chance"
         }
       ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:bone_meal"
+          "type": "item",
+          "name": "bone_meal"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:entities/cod"
+  "random_sequence": "entities/cod"
 }

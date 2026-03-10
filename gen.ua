@@ -90,14 +90,14 @@ $$ }
     $"data/minecraft/recipe/flint\_and\_steel_.json"
   | ♭↯⊙",\"#oo:tinder\"" +1
     $$ {
-    $$   "type": "minecraft:crafting\_shapeless",
+    $$   "type": "crafting\_shapeless",
     $$   "category": "equipment",
     $$   "ingredients": [
-    $$     "minecraft:flint"_
+    $$     "flint"_
     $$   ],
     $$   "result": {
     $$     "count": 1,
-    $$     "id": "minecraft:flint\_and\_steel",
+    $$     "id": "flint\_and\_steel",
     $$     "components": {
     $$       "damage": _,
     $$       "item\_name": "Firestarter"
@@ -129,11 +129,11 @@ $$ }
 ⍚(&fwa ⊃(
     $"data/minecraft/recipe/_\_armor\_trim\_smithing\_template\_smithing\_trim.json"
   | ˙$$ {
-     $$   "type": "minecraft:smithing\_trim",
+     $$   "type": "smithing\_trim",
      $$   "addition": "#oo:trim\_materials",
-     $$   "base": "#minecraft:trimmable\_armor",
-     $$   "pattern": "minecraft:_",
-     $$   "template": "minecraft:_\_armor\_trim\_smithing\_template"
+     $$   "base": "#trimmable\_armor",
+     $$   "pattern": "_",
+     $$   "template": "_\_armor\_trim\_smithing\_template"
      $$ }
   )
 )
@@ -169,7 +169,7 @@ ColorNames
     $"wool/_\__"
   | ⊃(⊙⋅⋅⋅∘|⋅⟜⊙⊙∘)
     $$ {
-    $$     "type": "minecraft:crafting\_shaped",
+    $$     "type": "crafting\_shaped",
     $$     "category":"equipment",
     $$     "pattern": [
     $$ _
@@ -202,7 +202,7 @@ ColorNames
 )
 /◇⊂₃",\n            "♭
 $$ {
-$$     "parent": "minecraft:recipes/root",
+$$     "parent": "recipes/root",
 $$     "criteria": {
 $$         "has\_wool": {
 $$             "conditions": {
@@ -212,7 +212,7 @@ $$                         "items": "#wool"
 $$                     }
 $$                 ]
 $$             },
-$$             "trigger": "minecraft:inventory\_changed"
+$$             "trigger": "inventory\_changed"
 $$         }
 $$     },
 $$     "requirements": [

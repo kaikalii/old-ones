@@ -1,17 +1,17 @@
 {
     "values": [
-        "minecraft:raw_gold",
-        "minecraft:golden_pickaxe",
-        "minecraft:golden_shovel",
-        "minecraft:golden_axe",
-        "minecraft:golden_hoe",
-        "minecraft:golden_sword",
-        "minecraft:golden_spear",
-        "minecraft:golden_helmet",
-        "minecraft:golden_chestplate",
-        "minecraft:golden_leggings",
-        "minecraft:golden_boots",
-        "minecraft:golden_horse_armor",
-        "minecraft:golden_nautilus_armor"
+        "raw_gold",
+        "golden_pickaxe",
+        "golden_shovel",
+        "golden_axe",
+        "golden_hoe",
+        "golden_sword",
+        "golden_spear",
+        "golden_helmet",
+        "golden_chestplate",
+        "golden_leggings",
+        "golden_boots",
+        "golden_horse_armor",
+        "golden_nautilus_armor"
     ]
 }

@@ -1,8 +1,8 @@
 {
     "values": [
-        "minecraft:string",
-        "minecraft:vine",
-        "minecraft:weeping_vines",
-        "minecraft:twisting_vines"
+        "string",
+        "vine",
+        "weeping_vines",
+        "twisting_vines"
     ]
 }

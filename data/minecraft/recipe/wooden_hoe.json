@@ -1,8 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "crafting_shaped",
   "category": "equipment",
   "key": {
-    "/": "minecraft:stick",
+    "/": "stick",
     "s": "#oo:tie"
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:wooden_hoe"
+    "id": "wooden_hoe"
   }
 }

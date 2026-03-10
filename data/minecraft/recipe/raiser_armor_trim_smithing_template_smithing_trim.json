@@ -1,7 +1,7 @@
 {
-  "type": "minecraft:smithing_trim",
+  "type": "smithing_trim",
   "addition": "#oo:trim_materials",
-  "base": "#minecraft:trimmable_armor",
-  "pattern": "minecraft:raiser",
-  "template": "minecraft:raiser_armor_trim_smithing_template"
+  "base": "#trimmable_armor",
+  "pattern": "raiser",
+  "template": "raiser_armor_trim_smithing_template"
 }

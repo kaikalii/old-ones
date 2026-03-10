@@ -1,73 +1,73 @@
 {
-  "parent": "minecraft:recipes/root",
+  "parent": "recipes/root",
   "criteria": {
     "has_flint": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:flint"
+            "items": "flint"
           }
         ]
       },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "inventory_changed"
     },
     "has_obsidian": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:obsidian"
+            "items": "obsidian"
           }
         ]
       },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "inventory_changed"
     },
     "has1": {
       "conditions": {
-        "recipe": "minecraft:flint_and_steel"
+        "recipe": "flint_and_steel"
       },
-      "trigger": "minecraft:recipe_unlocked"
+      "trigger": "recipe_unlocked"
     },
     "has2": {
       "conditions": {
-        "recipe": "minecraft:flint_and_steel2"
+        "recipe": "flint_and_steel2"
       },
-      "trigger": "minecraft:recipe_unlocked"
+      "trigger": "recipe_unlocked"
     },
     "has3": {
       "conditions": {
-        "recipe": "minecraft:flint_and_steel3"
+        "recipe": "flint_and_steel3"
       },
-      "trigger": "minecraft:recipe_unlocked"
+      "trigger": "recipe_unlocked"
     },
     "has4": {
       "conditions": {
-        "recipe": "minecraft:flint_and_steel4"
+        "recipe": "flint_and_steel4"
       },
-      "trigger": "minecraft:recipe_unlocked"
+      "trigger": "recipe_unlocked"
     },
     "has5": {
       "conditions": {
-        "recipe": "minecraft:flint_and_steel5"
+        "recipe": "flint_and_steel5"
       },
-      "trigger": "minecraft:recipe_unlocked"
+      "trigger": "recipe_unlocked"
     },
     "has6": {
       "conditions": {
-        "recipe": "minecraft:flint_and_steel6"
+        "recipe": "flint_and_steel6"
       },
-      "trigger": "minecraft:recipe_unlocked"
+      "trigger": "recipe_unlocked"
     },
     "has7": {
       "conditions": {
-        "recipe": "minecraft:flint_and_steel7"
+        "recipe": "flint_and_steel7"
       },
-      "trigger": "minecraft:recipe_unlocked"
+      "trigger": "recipe_unlocked"
     },
     "has8": {
       "conditions": {
-        "recipe": "minecraft:flint_and_steel8"
+        "recipe": "flint_and_steel8"
       },
-      "trigger": "minecraft:recipe_unlocked"
+      "trigger": "recipe_unlocked"
     }
   },
   "requirements": [
@@ -86,14 +86,14 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:flint_and_steel",
-      "minecraft:flint_and_steel2",
-      "minecraft:flint_and_steel3",
-      "minecraft:flint_and_steel4",
-      "minecraft:flint_and_steel5",
-      "minecraft:flint_and_steel6",
-      "minecraft:flint_and_steel7",
-      "minecraft:flint_and_steel8"
+      "flint_and_steel",
+      "flint_and_steel2",
+      "flint_and_steel3",
+      "flint_and_steel4",
+      "flint_and_steel5",
+      "flint_and_steel6",
+      "flint_and_steel7",
+      "flint_and_steel8"
     ]
   }
 }

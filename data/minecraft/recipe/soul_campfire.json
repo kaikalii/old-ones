@@ -1,10 +1,10 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "crafting_shaped",
   "category": "misc",
   "key": {
-    "#": "#minecraft:soul_fire_base_blocks",
-    "L": "#minecraft:logs",
-    "S": "minecraft:stick"
+    "#": "#soul_fire_base_blocks",
+    "L": "#logs",
+    "S": "stick"
   },
   "pattern": [
     " S ",
@@ -13,7 +13,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:soul_campfire",
+    "id": "soul_campfire",
     "components": {
       "block_state": {
         "lit": "false"

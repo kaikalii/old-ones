@@ -1,8 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "crafting_shaped",
   "category": "misc",
   "key": {
-    "#": "#minecraft:stone_crafting_materials",
+    "#": "#stone_crafting_materials",
     "=": "#oo:strong_ingot"
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:cauldron"
+    "id": "cauldron"
   }
 }

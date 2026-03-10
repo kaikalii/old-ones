@@ -1,10 +1,10 @@
 {
     "criteria": {
         "using_item": {
-            "trigger": "minecraft:using_item",
+            "trigger": "using_item",
             "conditions": {
                 "item": {
-                    "items": "minecraft:name_tag"
+                    "items": "name_tag"
                 }
             }
         }

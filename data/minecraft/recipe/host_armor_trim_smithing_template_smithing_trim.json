@@ -1,7 +1,7 @@
 {
-  "type": "minecraft:smithing_trim",
+  "type": "smithing_trim",
   "addition": "#oo:trim_materials",
-  "base": "#minecraft:trimmable_armor",
-  "pattern": "minecraft:host",
-  "template": "minecraft:host_armor_trim_smithing_template"
+  "base": "#trimmable_armor",
+  "pattern": "host",
+  "template": "host_armor_trim_smithing_template"
 }

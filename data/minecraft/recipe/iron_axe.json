@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "crafting_shaped",
   "category": "equipment",
   "key": {
-    "|": "minecraft:stick",
-    "<": "minecraft:iron_ingot",
+    "|": "stick",
+    "<": "iron_ingot",
     "s": "#oo:tie"
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:iron_axe"
+    "id": "iron_axe"
   }
 }

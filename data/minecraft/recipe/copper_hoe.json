@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "crafting_shaped",
   "category": "equipment",
   "key": {
-    "/": "minecraft:stick",
-    "^": "minecraft:copper_ingot"
+    "/": "stick",
+    "^": "copper_ingot"
   },
   "pattern": [
     "  /",
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:copper_hoe"
+    "id": "copper_hoe"
   }
 }

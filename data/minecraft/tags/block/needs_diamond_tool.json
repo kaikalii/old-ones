@@ -1,8 +1,8 @@
 {
   "values": [
-    "minecraft:obsidian",
-    "minecraft:netherite_block",
-    "minecraft:ancient_debris"
+    "obsidian",
+    "netherite_block",
+    "ancient_debris"
   ],
   "replace": true
 }

@@ -1,17 +1,17 @@
 {
     "values": [
-        "minecraft:raw_iron",
-        "minecraft:iron_pickaxe",
-        "minecraft:iron_shovel",
-        "minecraft:iron_axe",
-        "minecraft:iron_hoe",
-        "minecraft:iron_sword",
-        "minecraft:iron_spear",
-        "minecraft:iron_helmet",
-        "minecraft:iron_chestplate",
-        "minecraft:iron_leggings",
-        "minecraft:iron_boots",
-        "minecraft:iron_horse_armor",
-        "minecraft:iron_nautilus_armor"
+        "raw_iron",
+        "iron_pickaxe",
+        "iron_shovel",
+        "iron_axe",
+        "iron_hoe",
+        "iron_sword",
+        "iron_spear",
+        "iron_helmet",
+        "iron_chestplate",
+        "iron_leggings",
+        "iron_boots",
+        "iron_horse_armor",
+        "iron_nautilus_armor"
     ]
 }

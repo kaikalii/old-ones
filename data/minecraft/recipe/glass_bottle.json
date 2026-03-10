@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "crafting_shaped",
   "category": "misc",
   "key": {
     "#": "#oo:glass_block"
@@ -10,6 +10,6 @@
   ],
   "result": {
     "count": 3,
-    "id": "minecraft:glass_bottle"
+    "id": "glass_bottle"
   }
 }

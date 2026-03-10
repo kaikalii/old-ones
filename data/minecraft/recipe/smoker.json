@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "crafting_shaped",
   "category": "misc",
   "key": {
-    "#": "#minecraft:logs",
-    "X": "#minecraft:stone_crafting_materials",
+    "#": "#logs",
+    "X": "#stone_crafting_materials",
     "_": "#oo:furnace_bottom"
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:smoker"
+    "id": "smoker"
   }
 }

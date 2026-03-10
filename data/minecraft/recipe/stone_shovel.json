@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "crafting_shaped",
   "category": "equipment",
   "key": {
-    "|": "minecraft:stick",
-    "^": "minecraft:flint",
+    "|": "stick",
+    "^": "flint",
     "s": "#oo:tie"
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:stone_shovel"
+    "id": "stone_shovel"
   }
 }

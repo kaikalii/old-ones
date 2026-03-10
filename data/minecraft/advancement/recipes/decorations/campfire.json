@@ -1,31 +1,31 @@
 {
-  "parent": "minecraft:recipes/root",
+  "parent": "recipes/root",
   "criteria": {
     "has_log": {
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:logs_that_burn"
+            "items": "#logs_that_burn"
           }
         ]
       },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "inventory_changed"
     },
     "has_stick": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:stick"
+            "items": "stick"
           }
         ]
       },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "inventory_changed"
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:campfire"
+        "recipe": "campfire"
       },
-      "trigger": "minecraft:recipe_unlocked"
+      "trigger": "recipe_unlocked"
     }
   },
   "requirements": [
@@ -37,7 +37,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:campfire"
+      "campfire"
     ]
   }
 }

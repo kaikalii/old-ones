@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "crafting_shaped",
   "category": "misc",
   "key": {
-    "L": "#minecraft:logs_that_burn",
-    "S": "minecraft:stick"
+    "L": "#logs_that_burn",
+    "S": "stick"
   },
   "pattern": [
     " S ",
@@ -12,7 +12,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:campfire",
+    "id": "campfire",
     "components": {
       "block_state": {
         "lit": "false"
