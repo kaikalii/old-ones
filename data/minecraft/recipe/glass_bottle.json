@@ -1,15 +1,10 @@
 {
-  "type": "crafting_shaped",
+  "type": "crafting_shapeless",
   "category": "misc",
-  "key": {
-    "#": "#oo:glass_block"
-  },
-  "pattern": [
-    "# #",
-    " # "
+  "ingredients": [
+    "#oo:glass_block"
   ],
   "result": {
-    "count": 3,
     "id": "glass_bottle"
   }
 }
