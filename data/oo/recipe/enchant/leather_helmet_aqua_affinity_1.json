@@ -1,12 +1,12 @@
 {
     "type": "smithing_transform",
     "base": "leather_helmet",
-    "addition": "prismarine_shard",
+    "addition": "prismarine_crystals",
     "result": {
         "id": "leather_helmet",
         "components": {
             "lore": [
-                "+Aqua_affinity I"
+                "+Aqua Affinity I"
             ],
             "custom_data": {
                 "enchant": true

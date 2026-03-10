@@ -6,7 +6,7 @@
         "id": "fishing_rod",
         "components": {
             "lore": [
-                "+Luck_of_the_sea I"
+                "+Luck of The Sea I"
             ],
             "custom_data": {
                 "enchant": true

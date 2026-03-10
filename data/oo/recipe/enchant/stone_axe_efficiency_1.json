@@ -1,7 +1,7 @@
 {
     "type": "smithing_transform",
     "base": "stone_axe",
-    "addition": "blaze_powder",
+    "addition": "sugar",
     "result": {
         "id": "stone_axe",
         "components": {

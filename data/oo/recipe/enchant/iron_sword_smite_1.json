@@ -1,7 +1,7 @@
 {
     "type": "smithing_transform",
     "base": "iron_sword",
-    "addition": "glowstone",
+    "addition": "glowstone_dust",
     "result": {
         "id": "iron_sword",
         "components": {

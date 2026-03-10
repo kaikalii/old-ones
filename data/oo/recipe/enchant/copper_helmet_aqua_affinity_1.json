@@ -1,12 +1,12 @@
 {
     "type": "smithing_transform",
     "base": "copper_helmet",
-    "addition": "prismarine_shard",
+    "addition": "prismarine_crystals",
     "result": {
         "id": "copper_helmet",
         "components": {
             "lore": [
-                "+Aqua_affinity I"
+                "+Aqua Affinity I"
             ],
             "custom_data": {
                 "enchant": true

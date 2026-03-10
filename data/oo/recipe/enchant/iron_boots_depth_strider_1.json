@@ -6,7 +6,7 @@
         "id": "iron_boots",
         "components": {
             "lore": [
-                "+Depth_strider I"
+                "+Depth Strider I"
             ],
             "custom_data": {
                 "enchant": true

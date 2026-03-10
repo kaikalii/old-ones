@@ -6,7 +6,7 @@
         "id": "iron_chestplate",
         "components": {
             "lore": [
-                "+Projectile_protection I"
+                "+Projectile Protection I"
             ],
             "custom_data": {
                 "enchant": true

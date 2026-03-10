@@ -1,7 +1,7 @@
 {
     "type": "smithing_transform",
     "base": "golden_spear",
-    "addition": "prismarine_shard",
+    "addition": "pointed_dripstone",
     "result": {
         "id": "golden_spear",
         "components": {

@@ -1,0 +1,30 @@
+{
+    "type": "crafting_shaped",
+    "group": "bane_of_arthropods_upgrade",
+    "category": "equipment",
+    "key": {
+        "T": "golden_sword",
+        "M": "fermented_spider_eye",
+        "X": "#oo:nothing",
+        "S": "smithing_table"
+    },
+    "pattern": [
+        "XS ",
+        "   ",
+        " TM"
+    ],
+    "result": {
+        "id": "fermented_spider_eye",
+        "components": {
+            "item_name": {
+                "text": "Bane of Arthropods",
+                "color": "#ffa0c0"
+            },
+            "lore": [
+                "+Bane of Arthropods I",
+                {"text":"Make in Smithing Table","color":"white","italic":false}
+            ],
+            "enchantment_glint_override": true
+        }
+    }
+}

@@ -6,7 +6,7 @@
         "id": "stone_axe",
         "components": {
             "lore": [
-                "+Silk_touch I"
+                "+Silk Touch I"
             ],
             "custom_data": {
                 "enchant": true

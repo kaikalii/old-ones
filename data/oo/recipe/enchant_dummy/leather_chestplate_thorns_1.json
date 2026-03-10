@@ -1,0 +1,30 @@
+{
+    "type": "crafting_shaped",
+    "group": "thorns_upgrade",
+    "category": "equipment",
+    "key": {
+        "T": "leather_chestplate",
+        "M": "cactus",
+        "X": "#oo:nothing",
+        "S": "smithing_table"
+    },
+    "pattern": [
+        "XS ",
+        "   ",
+        " TM"
+    ],
+    "result": {
+        "id": "cactus",
+        "components": {
+            "item_name": {
+                "text": "Thorns",
+                "color": "#ffa0c0"
+            },
+            "lore": [
+                "+Thorns I",
+                {"text":"Make in Smithing Table","color":"white","italic":false}
+            ],
+            "enchantment_glint_override": true
+        }
+    }
+}

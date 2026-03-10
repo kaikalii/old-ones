@@ -1,7 +1,7 @@
 {
     "type": "smithing_transform",
     "base": "iron_hoe",
-    "addition": "blaze_powder",
+    "addition": "sugar",
     "result": {
         "id": "iron_hoe",
         "components": {

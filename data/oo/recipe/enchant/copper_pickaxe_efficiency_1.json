@@ -1,7 +1,7 @@
 {
     "type": "smithing_transform",
     "base": "copper_pickaxe",
-    "addition": "blaze_powder",
+    "addition": "sugar",
     "result": {
         "id": "copper_pickaxe",
         "components": {

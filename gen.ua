@@ -312,27 +312,64 @@ Blasting"iron"
 
 # Enchanting recipes
 &fmd⟜&fde "data/oo/recipe/enchant"
-Numeral ← ⊏⊙{"I""II""III""IV""V"}-1
-~MarkEnchant {Tool Ench Level Mat} &fwa⊃(
-  $"data/oo/recipe/enchant/_\__\__.json" ⊃(Tool|Ench|Level)
-| ⊃(Tool|Mat|Tool|⍜⊢⌵Ench|Numeral Level)
-  $$ {
-  $$     "type": "smithing\_transform",
-  $$     "base": "_",
-  $$     "addition": "_",
-  $$     "result": {
-  $$         "id": "_",
-  $$         "components": {
-  $$             "lore": [
-  $$                 "+_ _"
-  $$             ],
-  $$             "custom\_data": {
-  $$                 "enchant": true
-  $$             }
-  $$         }
-  $$     }
-  $$ }
-)
+&fmd⟜&fde "data/oo/recipe/enchant_dummy"
+Numeral  ← ⊏⊙{"I""II""III""IV""V"}-1
+EnchName ← ⍜⊜□(⍜▽⍚⍜⊢⌵ >2⊸≡◇⧻) ⊃¬(+×/-"_ ")⊸=@_
+~MarkEnchant {Tool Ench Level Mat} ⊃(
+  &fwa⊃(
+    $"data/oo/recipe/enchant/_\__\__.json" ⊃(Tool|Ench|Level)
+  | ⊃(Tool|Mat|Tool|EnchName Ench|Numeral Level)
+    $$ {
+    $$     "type": "smithing\_transform",
+    $$     "base": "_",
+    $$     "addition": "_",
+    $$     "result": {
+    $$         "id": "_",
+    $$         "components": {
+    $$             "lore": [
+    $$                 "+_ _"
+    $$             ],
+    $$             "custom\_data": {
+    $$                 "enchant": true
+    $$             }
+    $$         }
+    $$     }
+    $$ }
+  )
+| &fwa⊃(
+    $"data/oo/recipe/enchant\_dummy/_\__\__.json" ⊃(Tool|Ench|Level)
+  | ⊃(Ench|Tool|Mat|˜⊏⊂{"armadillo_scute"}□⤙⨂{"#oo:scute"} □Mat|EnchName Ench|EnchName Ench|Numeral Level)
+    $$ {
+    $$     "type": "crafting\_shaped",
+    $$     "group": "_\_upgrade",
+    $$     "category": "equipment",
+    $$     "key": {
+    $$         "T": "_",
+    $$         "M": "_",
+    $$         "X": "#oo:nothing",
+    $$         "S": "smithing\_table"
+    $$     },
+    $$     "pattern": [
+    $$         "XS ",
+    $$         "   ",
+    $$         " TM"
+    $$     ],
+    $$     "result": {
+    $$         "id": "_",
+    $$         "components": {
+    $$             "item\_name": {
+    $$                 "text": "_",
+    $$                 "color": "#ffa0c0"
+    $$             },
+    $$             "lore": [
+    $$                 "+_ _",
+    $$                 {"text":"Make in Smithing Table","color":"white","italic":false}
+    $$             ],
+    $$             "enchantment\_glint\_override": true
+    $$         }
+    $$     }
+    $$ }
+  ))
 
 ToolKinds            ← {"pickaxe""axe""shovel""hoe"}
 WeaponKinds          ← {"sword""axe""spear"}
@@ -359,14 +396,14 @@ Boots                ← ⍚$"_\_boots" ArmorPrefixes
 ⍚⌟₃MarkEnchant DedicatedWeapons "looting" 1 "rabbit_foot"
 ⍚⌟₃MarkEnchant Helmets "respiration" 1 "nautilus_shell"
 ⍚⌟₃MarkEnchant Helmets "respiration" 2 "heart_of_the_sea"
-⍚⌟₃MarkEnchant Helmets "aqua_affinity" 1 "prismarine_shard"
-⍚⌟₃MarkEnchant Tools "efficiency" 1 "blaze_powder"
+⍚⌟₃MarkEnchant Helmets "aqua_affinity" 1 "prismarine_crystals"
+⍚⌟₃MarkEnchant Tools "efficiency" 1 "sugar"
 ⍚⌟₃MarkEnchant Tools "fortune" 1 "rabbit_foot"
 ⍚⌟₃MarkEnchant Tools "silk_touch" 1 "amethyst_shard"
 ⍚⌟₃MarkEnchant Weapons "bane_of_arthropods" 1 "fermented_spider_eye"
 ⍚⌟₃MarkEnchant Weapons "sharpness" 1 "flint"
-⍚⌟₃MarkEnchant Weapons "sharpness" 2 "prismarine_shard"
-⍚⌟₃MarkEnchant Weapons "smite" 1 "glowstone"
+⍚⌟₃MarkEnchant Weapons "sharpness" 2 "pointed_dripstone"
+⍚⌟₃MarkEnchant Weapons "smite" 1 "glowstone_dust"
 MarkEnchant "fishing_rod" "luck_of_the_sea" 1 "rabbit_foot"
 MarkEnchant "spear" "lunge" 1 "sugar"
 
@@ -380,7 +417,7 @@ MarkEnchant "spear" "lunge" 1 "sugar"
 Slots ← ⊂□"player.cursor" ⍚$"container._" ⇡₀53
 ~SetEnchant {Ench Level} ⊃(
   ⊙{"player.cursor""container.*"}
-  ⍚⌞(⊃(⋅∘|⍜⊢⌵Ench|Numeral Level|Ench|Level)
+  ⍚⌞(⊃(⋅∘|EnchName Ench|Numeral Level|Ench|Level)
      $$ execute if items entity @s _ *[lore=["+_ _"]] run function oo:enchant/with/_\__
   )
   /◇⊂₃ @\n
@@ -392,7 +429,7 @@ Slots ← ⊂□"player.cursor" ⍚$"container._" ⇡₀53
 | &fwa⊃(
     $"data/oo/function/enchant/with/_\__.mcfunction" ⊃Ench Level
   | ⊙Slots
-    ⍚⌞(⊃(⋅∘|⍜⊢⌵Ench|Numeral Level|⋅∘|Ench|Level)
+    ⍚⌞(⊃(⋅∘|EnchName Ench|Numeral Level|⋅∘|Ench|Level)
        $$ execute if items entity @s _ *[lore=["+_ _"]] run item modify entity @s _ oo:enchant/_\__
     )
     ⊂{"# This file is generated"}

@@ -1,7 +1,7 @@
 {
     "type": "smithing_transform",
     "base": "copper_axe",
-    "addition": "prismarine_shard",
+    "addition": "pointed_dripstone",
     "result": {
         "id": "copper_axe",
         "components": {

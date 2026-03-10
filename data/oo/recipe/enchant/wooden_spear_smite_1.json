@@ -1,7 +1,7 @@
 {
     "type": "smithing_transform",
     "base": "wooden_spear",
-    "addition": "glowstone",
+    "addition": "glowstone_dust",
     "result": {
         "id": "wooden_spear",
         "components": {

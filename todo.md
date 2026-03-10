@@ -2,6 +2,7 @@
 
 - "Leather" recipe
 - Expand enchanting system
+  - Darksight
 - Altimeter
 - Make pigs do something
 - Item movement mechanics
@@ -14,3 +15,4 @@
 - WT trade replacement
 - Do something about buckets
 - Advancements
+- Way to make planks/crafting tables

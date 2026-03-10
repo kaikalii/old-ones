@@ -6,7 +6,7 @@
         "id": "golden_shovel",
         "components": {
             "lore": [
-                "+Silk_touch I"
+                "+Silk Touch I"
             ],
             "custom_data": {
                 "enchant": true

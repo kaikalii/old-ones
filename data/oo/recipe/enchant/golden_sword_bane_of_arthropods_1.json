@@ -6,7 +6,7 @@
         "id": "golden_sword",
         "components": {
             "lore": [
-                "+Bane_of_arthropods I"
+                "+Bane of Arthropods I"
             ],
             "custom_data": {
                 "enchant": true

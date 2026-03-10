@@ -6,7 +6,7 @@
         "id": "iron_chestplate",
         "components": {
             "lore": [
-                "+Fire_protection II"
+                "+Fire Protection II"
             ],
             "custom_data": {
                 "enchant": true

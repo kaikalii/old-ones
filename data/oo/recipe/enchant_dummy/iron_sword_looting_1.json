@@ -1,0 +1,30 @@
+{
+    "type": "crafting_shaped",
+    "group": "looting_upgrade",
+    "category": "equipment",
+    "key": {
+        "T": "iron_sword",
+        "M": "rabbit_foot",
+        "X": "#oo:nothing",
+        "S": "smithing_table"
+    },
+    "pattern": [
+        "XS ",
+        "   ",
+        " TM"
+    ],
+    "result": {
+        "id": "rabbit_foot",
+        "components": {
+            "item_name": {
+                "text": "Looting",
+                "color": "#ffa0c0"
+            },
+            "lore": [
+                "+Looting I",
+                {"text":"Make in Smithing Table","color":"white","italic":false}
+            ],
+            "enchantment_glint_override": true
+        }
+    }
+}
