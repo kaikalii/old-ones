@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "turtle_helmet",
+    "addition": "prismarine_shard",
+    "result": {
+        "id": "turtle_helmet",
+        "components": {
+            "lore": [
+                "+Aqua_affinity I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

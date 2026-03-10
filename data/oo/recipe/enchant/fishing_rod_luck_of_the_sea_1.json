@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "fishing_rod",
+    "addition": "rabbit_foot",
+    "result": {
+        "id": "fishing_rod",
+        "components": {
+            "lore": [
+                "+Luck_of_the_sea I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

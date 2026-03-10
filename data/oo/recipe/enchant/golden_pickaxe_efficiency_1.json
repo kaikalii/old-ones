@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_pickaxe",
+    "addition": "blaze_powder",
+    "result": {
+        "id": "golden_pickaxe",
+        "components": {
+            "lore": [
+                "+Efficiency I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "iron_spear",
+    "addition": "glowstone",
+    "result": {
+        "id": "iron_spear",
+        "components": {
+            "lore": [
+                "+Smite I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

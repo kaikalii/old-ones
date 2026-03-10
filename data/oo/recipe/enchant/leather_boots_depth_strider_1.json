@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "leather_boots",
+    "addition": "ink_sac",
+    "result": {
+        "id": "leather_boots",
+        "components": {
+            "lore": [
+                "+Depth_strider I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

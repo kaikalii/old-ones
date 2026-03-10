@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "stone_shovel",
+    "addition": "rabbit_foot",
+    "result": {
+        "id": "stone_shovel",
+        "components": {
+            "lore": [
+                "+Fortune I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

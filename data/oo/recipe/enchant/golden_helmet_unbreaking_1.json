@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_helmet",
+    "addition": "gold_ingot",
+    "result": {
+        "id": "golden_helmet",
+        "components": {
+            "lore": [
+                "+Unbreaking I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

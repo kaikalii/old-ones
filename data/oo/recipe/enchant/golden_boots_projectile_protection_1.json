@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_boots",
+    "addition": "#oo:scute",
+    "result": {
+        "id": "golden_boots",
+        "components": {
+            "lore": [
+                "+Projectile_protection I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

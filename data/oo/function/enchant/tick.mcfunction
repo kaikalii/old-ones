@@ -1,0 +1,2 @@
+execute as @a if items entity @e player.cursor *[custom_data={enchant:true}] run function oo:enchant/player
+execute as @a if items entity @e container.* *[custom_data={enchant:true}] run function oo:enchant/player

@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_helmet",
+    "addition": "prismarine_shard",
+    "result": {
+        "id": "golden_helmet",
+        "components": {
+            "lore": [
+                "+Aqua_affinity I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_chestplate",
+    "addition": "copper_ingot",
+    "result": {
+        "id": "copper_chestplate",
+        "components": {
+            "lore": [
+                "+Unbreaking I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

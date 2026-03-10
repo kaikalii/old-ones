@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_helmet",
+    "addition": "#oo:scute",
+    "result": {
+        "id": "golden_helmet",
+        "components": {
+            "lore": [
+                "+Projectile_protection I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

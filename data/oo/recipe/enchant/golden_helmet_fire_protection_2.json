@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_helmet",
+    "addition": "magma_cream",
+    "result": {
+        "id": "golden_helmet",
+        "components": {
+            "lore": [
+                "+Fire_protection II"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

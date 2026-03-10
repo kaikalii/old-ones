@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_sword",
+    "addition": "feather",
+    "result": {
+        "id": "copper_sword",
+        "components": {
+            "lore": [
+                "+Knockback I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

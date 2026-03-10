@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_hoe",
+    "addition": "copper_ingot",
+    "result": {
+        "id": "copper_hoe",
+        "components": {
+            "lore": [
+                "+Unbreaking I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

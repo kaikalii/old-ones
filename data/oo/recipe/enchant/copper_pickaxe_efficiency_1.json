@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_pickaxe",
+    "addition": "blaze_powder",
+    "result": {
+        "id": "copper_pickaxe",
+        "components": {
+            "lore": [
+                "+Efficiency I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_chestplate",
+    "addition": "#oo:scute",
+    "result": {
+        "id": "copper_chestplate",
+        "components": {
+            "lore": [
+                "+Projectile_protection I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

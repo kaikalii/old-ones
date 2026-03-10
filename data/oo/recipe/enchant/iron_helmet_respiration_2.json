@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "iron_helmet",
+    "addition": "heart_of_the_sea",
+    "result": {
+        "id": "iron_helmet",
+        "components": {
+            "lore": [
+                "+Respiration II"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

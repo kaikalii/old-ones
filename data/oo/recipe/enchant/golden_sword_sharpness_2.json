@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_sword",
+    "addition": "prismarine_shard",
+    "result": {
+        "id": "golden_sword",
+        "components": {
+            "lore": [
+                "+Sharpness II"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

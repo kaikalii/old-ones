@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_boots",
+    "addition": "feather",
+    "result": {
+        "id": "copper_boots",
+        "components": {
+            "lore": [
+                "+Feather_falling I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

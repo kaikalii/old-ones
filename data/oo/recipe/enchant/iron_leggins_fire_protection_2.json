@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "iron_leggins",
+    "addition": "magma_cream",
+    "result": {
+        "id": "iron_leggins",
+        "components": {
+            "lore": [
+                "+Fire_protection II"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

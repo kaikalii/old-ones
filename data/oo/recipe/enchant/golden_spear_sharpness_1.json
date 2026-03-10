@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_spear",
+    "addition": "flint",
+    "result": {
+        "id": "golden_spear",
+        "components": {
+            "lore": [
+                "+Sharpness I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "iron_pickaxe",
+    "addition": "rabbit_foot",
+    "result": {
+        "id": "iron_pickaxe",
+        "components": {
+            "lore": [
+                "+Fortune I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_pickaxe",
+    "addition": "amethyst_shard",
+    "result": {
+        "id": "golden_pickaxe",
+        "components": {
+            "lore": [
+                "+Silk_touch I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "leather_helmet",
+    "addition": "nautilus_shell",
+    "result": {
+        "id": "leather_helmet",
+        "components": {
+            "lore": [
+                "+Respiration I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

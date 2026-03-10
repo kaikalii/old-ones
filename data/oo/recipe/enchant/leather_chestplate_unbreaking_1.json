@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "leather_chestplate",
+    "addition": "leather",
+    "result": {
+        "id": "leather_chestplate",
+        "components": {
+            "lore": [
+                "+Unbreaking I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

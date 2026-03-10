@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "leather_boots",
+    "addition": "feather",
+    "result": {
+        "id": "leather_boots",
+        "components": {
+            "lore": [
+                "+Feather_falling I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

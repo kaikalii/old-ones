@@ -1,10 +1,7 @@
 # TODO
 
 - "Leather" recipe
-- Enchanting system
-  - Enchantments based on crafting materials
-  - Requires bottle of enchanting
-  - Darksight
+- Expand enchanting system
 - Altimeter
 - Make pigs do something
 - Item movement mechanics

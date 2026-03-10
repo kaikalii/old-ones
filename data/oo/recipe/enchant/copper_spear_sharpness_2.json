@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_spear",
+    "addition": "prismarine_shard",
+    "result": {
+        "id": "copper_spear",
+        "components": {
+            "lore": [
+                "+Sharpness II"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

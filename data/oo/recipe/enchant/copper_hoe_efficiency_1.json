@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_hoe",
+    "addition": "blaze_powder",
+    "result": {
+        "id": "copper_hoe",
+        "components": {
+            "lore": [
+                "+Efficiency I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

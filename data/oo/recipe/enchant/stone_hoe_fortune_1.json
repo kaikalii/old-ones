@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "stone_hoe",
+    "addition": "rabbit_foot",
+    "result": {
+        "id": "stone_hoe",
+        "components": {
+            "lore": [
+                "+Fortune I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_spear",
+    "addition": "flint",
+    "result": {
+        "id": "copper_spear",
+        "components": {
+            "lore": [
+                "+Sharpness I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

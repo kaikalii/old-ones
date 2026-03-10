@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "wooden_sword",
+    "addition": "stick",
+    "result": {
+        "id": "wooden_sword",
+        "components": {
+            "lore": [
+                "+Unbreaking I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "iron_helmet",
+    "addition": "prismarine_shard",
+    "result": {
+        "id": "iron_helmet",
+        "components": {
+            "lore": [
+                "+Aqua_affinity I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

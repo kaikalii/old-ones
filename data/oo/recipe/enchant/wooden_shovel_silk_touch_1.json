@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "wooden_shovel",
+    "addition": "amethyst_shard",
+    "result": {
+        "id": "wooden_shovel",
+        "components": {
+            "lore": [
+                "+Silk_touch I"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}
