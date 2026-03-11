@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "#wool_carpets",
+        "#wool_carpets",
+        "#wool_carpets"
+    ],
+    "result": {
+        "count": 4,
+        "id": "minecraft:string"
+    },
+    "group": "string"
+}

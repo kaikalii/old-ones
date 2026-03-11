@@ -1,0 +1,28 @@
+{
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "wheat_seeds",
+        [
+            "melon_seeds",
+            "pumpkin_seeds"
+        ],
+        [
+            "sugar",
+            "cocoa_beans"
+        ]
+    ],
+    "result": {
+        "id": "wheat_seeds",
+        "count": 3,
+        "components": {
+            "item_name": "Trail Mix",
+            "food": {
+                "nutrition": 1,
+                "saturation": 2
+            },
+            "enchantment_glint_override": true,
+            "consumable": {}
+        }
+    }
+}

@@ -14,4 +14,7 @@
 - Villager trade replacement
 - WT trade replacement
 - Do something about buckets
+- Loot
+  - Glass bottles
+- Make stone drops not annoying
 - Advancements
