@@ -16,5 +16,4 @@
 - Do something about buckets
 - Loot
   - Glass bottles
-- Make stone drops not annoying
 - Advancements

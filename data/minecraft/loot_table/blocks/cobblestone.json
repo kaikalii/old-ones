@@ -17,7 +17,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "diorite"
+          "name": "cobblestone"
         }
       ],
       "rolls": 1.0
@@ -35,11 +35,11 @@
       "entries": [
         {
           "type": "item",
-          "name": "sand"
+          "name": "gravel"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "blocks/diorite"
+  "random_sequence": "blocks/cobblestone"
 }

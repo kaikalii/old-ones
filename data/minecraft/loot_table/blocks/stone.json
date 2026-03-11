@@ -7,9 +7,10 @@
           "condition": "survives_explosion"
         },
         {
-          "condition": "match_tool",
-          "predicate": {
-            "items": "#pickaxes"
+          "condition": "inverted",
+          "term": {
+            "condition": "reference",
+            "name": "oo:axe_no_st"
           }
         }
       ],
@@ -17,10 +18,6 @@
         {
           "type": "item",
           "name": "stone"
-        },
-        {
-          "type": "item",
-          "name": "cobblestone"
         }
       ],
       "rolls": 1.0
@@ -31,34 +28,14 @@
           "condition": "survives_explosion"
         },
         {
-          "condition": "inverted",
-          "term": {
-            "condition": "match_tool",
-            "predicate": {
-              "items": "#pickaxes"
-            }
-          }
+          "condition": "reference",
+          "name": "oo:axe_no_st"
         }
       ],
       "entries": [
         {
           "type": "item",
-          "name": "stone",
-          "weight": 5
-        },
-        {
-          "type": "item",
-          "name": "cobblestone",
-          "weight": 15
-        },
-        {
-          "type": "item",
-          "name": "gravel",
-          "weight": 10
-        },
-        {
-          "type": "item",
-          "name": "flint"
+          "name": "cobblestone"
         }
       ],
       "rolls": 1.0

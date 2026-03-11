@@ -7,9 +7,10 @@
           "condition": "survives_explosion"
         },
         {
-          "condition": "match_tool",
-          "predicate": {
-            "items": "#pickaxes"
+          "condition": "inverted",
+          "term": {
+            "condition": "reference",
+            "name": "oo:axe_no_st"
           }
         }
       ],
@@ -27,29 +28,14 @@
           "condition": "survives_explosion"
         },
         {
-          "condition": "inverted",
-          "term": {
-            "condition": "match_tool",
-            "predicate": {
-              "items": "#pickaxes"
-            }
-          }
+          "condition": "reference",
+          "name": "oo:axe_no_st"
         }
       ],
       "entries": [
         {
           "type": "item",
-          "name": "andesite",
-          "weight": 15
-        },
-        {
-          "type": "item",
-          "name": "gravel",
-          "weight": 15
-        },
-        {
-          "type": "item",
-          "name": "flint"
+          "name": "gravel"
         }
       ],
       "rolls": 1.0
