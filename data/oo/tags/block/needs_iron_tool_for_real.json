@@ -1,6 +1,10 @@
 {
   "values": [
     "crying_obsidian",
-    "respawn_anchor"
+    "respawn_anchor",
+    "minecraft:diamond_ore",
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:deepslate_emerald_ore",
+    "minecraft:emerald_block"
   ]
 }

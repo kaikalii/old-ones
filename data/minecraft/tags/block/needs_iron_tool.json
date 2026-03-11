@@ -1,5 +1,7 @@
 {
   "values": [
-    "#oo:needs_iron_tool_for_real"
-  ]
+    "#oo:needs_iron_tool_for_real",
+    "#iron_ores"
+  ],
+  "replace": true
 }

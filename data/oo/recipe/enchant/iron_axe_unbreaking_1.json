@@ -1,7 +1,7 @@
 {
     "type": "smithing_transform",
     "base": "iron_axe",
-    "addition": "gold_ingot",
+    "addition": "iron_ingot",
     "result": {
         "id": "iron_axe",
         "components": {

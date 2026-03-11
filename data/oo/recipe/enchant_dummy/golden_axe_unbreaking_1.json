@@ -4,7 +4,7 @@
     "category": "equipment",
     "key": {
         "T": "golden_axe",
-        "M": "iron_ingot",
+        "M": "gold_ingot",
         "X": "#oo:nothing",
         "S": "smithing_table"
     },
@@ -14,7 +14,7 @@
         " TM"
     ],
     "result": {
-        "id": "iron_ingot",
+        "id": "gold_ingot",
         "components": {
             "item_name": {
                 "text": "Unbreaking",

@@ -6,12 +6,27 @@
 - Altimeter
 - Make pigs do something
 - Item movement mechanics
-  - Allay spawning?
+  - Campfire output to barrel
+  - Change how proping open barrels works
   - Elevation?
+  - Allay spawning?
 - Chest minecart loot replacement
 - Villager trade replacement
 - WT trade replacement
 - Do something about buckets
 - Loot
   - Glass bottles
+- Light effects
 - Advancements
+  - Flint
+    - Stone Knife
+      - String
+        - Stone Axe
+          - Planks
+            - Crafting Table
+          - Copper
+            - Copper Pick
+              - Stone
+                - Blast Furnace
+                  - Iron
+                    - Iron Pick

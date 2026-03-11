@@ -72,7 +72,7 @@ WeaponKinds          ← {"sword""axe""spear"}
 DedicatedWeaponKinds ← {"sword""spear"}
 ArmorKinds           ← {"helmet""chestplate""leggins""boots"}
 ToolPrefixes         ← {"wooden""stone""copper""golden""iron"}
-ToolMats             ← {"stick" "stick" "copper_ingot" "iron_ingot" "gold_ingot"}
+ToolMats             ← {"stick" "stick" "copper_ingot" "gold_ingot" "iron_ingot"}
 ArmorPrefixes        ← {"leather""copper""golden""iron"}
 ArmorMats            ← {"leather""copper_ingot""gold_ingot""iron_ingot"}
 Tools                ← ▽¬⊸∊UncraftableTools ♭⊞⍚$"_\__"ToolPrefixes ToolKinds
