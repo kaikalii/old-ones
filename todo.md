@@ -6,8 +6,6 @@
 - Altimeter
 - Make pigs do something
 - Item movement mechanics
-  - Container drain
-  - Barrel collection
   - Allay spawning?
   - Elevation?
 - Chest minecart loot replacement

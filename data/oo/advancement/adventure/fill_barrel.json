@@ -1,0 +1,27 @@
+{
+    "parent": "oo:adventure/drain_container",
+    "criteria": {
+        "manual": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "description": "Drop an item into a propped-open barrel",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:barrel",
+            "components": {
+                "block_state": {
+                    "facing": "up",
+                    "open": "true"
+                }
+            }
+        },
+        "title": "Hopper? I hardly know her!"
+    },
+    "requirements": [
+        [
+            "manual"
+        ]
+    ]
+}

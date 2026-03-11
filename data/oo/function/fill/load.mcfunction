@@ -1,0 +1,1 @@
+scoreboard players set #compost_timer oo 0

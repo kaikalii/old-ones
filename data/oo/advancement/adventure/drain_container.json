@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "manual": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "description": "Use a copper trapdoor to drain a container",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:copper_trapdoor",
+            "components": {
+                "block_state": {
+                    "facing": "east",
+                    "open": "true"
+                }
+            }
+        },
+        "title": "There's a hole in it"
+    },
+    "requirements": [
+        [
+            "manual"
+        ]
+    ]
+}
