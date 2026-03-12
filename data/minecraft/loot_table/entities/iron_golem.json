@@ -36,18 +36,7 @@
       "entries": [
         {
           "type": "item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "uniform",
-                "min": 3.0,
-                "max": 6.0
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "clay_ball"
+          "name": "iron_nugget"
         }
       ],
       "rolls": 1.0
