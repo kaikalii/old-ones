@@ -1,7 +1,7 @@
 {
   "type": "blasting",
   "category": "misc",
-  "cookingtime": 333,
+  "cookingtime": 267,
   "experience": 0.1,
   "ingredient": "#oo:smelt_to_gold_nugget",
   "result": {

@@ -29,15 +29,14 @@ ColorNames ← {"white" "orange" "magenta" "light_blue" "yellow" "lime" "pink" "
     | $"_\_from\_blasting\__\_ore"
     | $"_\_from\_blasting\_deepslate\__\_ore"
     )
-   Smelting ← ⊃(
-    | ⋅$"_\_nugget\_from\_smelting"
-    | $"_\_from\_smelting\_raw\__"
-    | SmeltingOre
-    )
+   SmeltingRaw ← $"_\_from\_smelting\_raw\__"
+   BlastingRaw ← $"_\_from\_blasting\_raw\__"
+   Raw ← ⊃SmeltingRaw BlastingRaw
+   Smelting ← ⊃(|⋅$"_\_nugget\_from\_smelting"|SmeltingRaw|SmeltingOre)
    Ore ← ⊃SmeltingOre BlastingOre
-   {⊃Smelting BlastingOre "iron_ingot" "iron"
-    Ore "copper_ingot" "copper"
-    ⊃(Ore "gold_ingot"
+   {⊃(Smelting|BlastingOre|BlastingRaw) "iron_ingot" "iron"
+    ⊃Ore Raw "copper_ingot" "copper"
+    ⊃(⊃Ore Raw "gold_ingot"
       | ˙$"_\_ingot\_from\_smelting\_nether\__\_ore"
       | ˙$"_\_ingot\_from\_blasting\_nether\__\_ore"
       ) "gold"
@@ -260,7 +259,7 @@ $$ }
 ))
 
 # Ingot smeling
-~Smelt {Metal InpMat InpRecip Output Heat Time Exp} (
+~Smelt′ {Metal InpMat InpRecip Output Heat Time Exp} (
   &fwa⊃(
     $"data/minecraft/recipe/_\__\_from\___.json" ⊃(Metal|Output|Heat|InpRecip)
   | ⊃(Heat|Time|Exp|InpMat|Metal|Output)
@@ -276,16 +275,15 @@ $$ }
     $$ }
   )
 )
-Impl ← (
+Smelt ← (
   ⊙⊙(⁅˜÷24000)
-  ⊃(Smelt ⊃(∘|$"raw\__\_block"|$"\_raw\__"|"ingot"|⋅⊙∘|0.9)
-  | Smelt ⊃(∘|$"#oo:smelt\_to\__\_nugget"|""|"nugget"|⋅∘|⋅⋅(⁅÷9)|0.1))
+  Smelt′ ⊃(∘|$"#oo:smelt\_to\__\_nugget"|""|"nugget"|⋅∘|⋅⋅(⁅÷9)|0.1)
 )
-Smelting ← Impl⊙("smelting" 4)
-Blasting ← Impl⊙("blasting" 8)
-⊃Smelting Blasting"copper"
-⊃Smelting Blasting"gold"
-Blasting"iron"
+Smelting ← Smelt⊙"smelting"
+Blasting ← Smelt⊙"blasting"
+⊓⌞Smelting Blasting"copper" 4 8
+⊓⌞Smelting Blasting"gold"5 10
+Blasting "iron" 6
 
 # Loot chests
 ⊸≠@\n&fras "chest_loot_tables.txt"

@@ -35,6 +35,8 @@ execute if items entity @s player.cursor *[lore=["+Silk Touch I"]] run function 
 execute if items entity @s container.* *[lore=["+Silk Touch I"]] run function oo:enchant/with/silk_touch_1
 execute if items entity @s player.cursor *[lore=["+Smite I"]] run function oo:enchant/with/smite_1
 execute if items entity @s container.* *[lore=["+Smite I"]] run function oo:enchant/with/smite_1
+execute if items entity @s player.cursor *[lore=["+Unbreaking I"]] run function oo:enchant/with/unbreaking_1
+execute if items entity @s container.* *[lore=["+Unbreaking I"]] run function oo:enchant/with/unbreaking_1
 
 execute if items entity @s player.cursor *[custom_data={enchant:true}] run return run item modify entity @s player.cursor {function:"set_components",components:{"!custom_data":{},"!lore":{}}}
 execute if items entity @s container.0 *[custom_data={enchant:true}] run return run item modify entity @s container.0 {function:"set_components",components:{"!custom_data":{},"!lore":{}}}

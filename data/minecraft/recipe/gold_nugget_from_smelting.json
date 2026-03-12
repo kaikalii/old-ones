@@ -1,7 +1,7 @@
 {
   "type": "smelting",
   "category": "misc",
-  "cookingtime": 667,
+  "cookingtime": 533,
   "experience": 0.1,
   "ingredient": "#oo:smelt_to_gold_nugget",
   "result": {

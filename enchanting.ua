@@ -120,7 +120,7 @@ Slots ← ⊂□"player.cursor" ⍚$"container._" ⇡₀53
 | ⊃Ench Level
   &fwa⊃(
     $"data/oo/item\_modifier/enchant/_\__.json"
-  | json map {"function""enchantments"}{"set_enchantments"map∩¤}
+  | json map {"function""enchantments"}{"set_enchantments" map∩¤}
   )
 | &fwa⊃(
     $"data/oo/function/enchant/with/_\__.mcfunction" ⊃Ench Level
@@ -151,6 +151,7 @@ Slots ← ⊂□"player.cursor" ⍚$"container._" ⇡₀53
   {"sharpness" 2}
   {"silk_touch" 1}
   {"smite" 1}
+  {"unbreaking" 1}
 ]
 ⍚°{°SetEnchant}
 ⊂{"# This file is generated"}

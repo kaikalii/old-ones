@@ -3,6 +3,7 @@
 - "Leather" recipe
 - Expand enchanting system
   - Darksight
+  - Light effects
 - Altimeter
 - Make pigs do something
 - Item movement mechanics
@@ -16,7 +17,6 @@
 - Do something about buckets
 - Loot
   - Glass bottles
-- Light effects
 - Advancements
   - Flint
     - Stone Knife
