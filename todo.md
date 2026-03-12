@@ -15,6 +15,7 @@
 - Villager trade replacement
 - WT trade replacement
 - Do something about buckets
+- Cutting for planks
 - Loot
   - Glass bottles
 - Advancements

@@ -1,1 +1,0 @@
-execute as @e[type=item] at @s if items entity @s contents #oo:campfire_cookable run function oo:campfire/tick_find

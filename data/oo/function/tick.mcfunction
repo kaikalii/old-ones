@@ -1,4 +1,3 @@
-function oo:campfire/tick
 function oo:drain/tick
 function oo:enchant/tick
 function oo:fill/tick

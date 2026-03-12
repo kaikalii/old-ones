@@ -1,0 +1,16 @@
+{
+    "values": [
+        "cooked_beef",
+        "cooked_chicken",
+        "cooked_rabbit",
+        "cooked_porkchop",
+        "cooked_mutton",
+        "cooked_cod",
+        "cooked_salmon",
+        "baked_potato",
+        "dried_kelp",
+        "brick",
+        "nether_brick",
+        "charcoal"
+    ]
+}
