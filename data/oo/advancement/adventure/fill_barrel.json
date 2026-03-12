@@ -6,14 +6,13 @@
         }
     },
     "display": {
-        "description": "Drop an item into a propped-open barrel",
+        "description": "Drop an item into an open barrel",
         "icon": {
-            "count": 1,
-            "id": "minecraft:barrel",
+            "id": "lever",
             "components": {
                 "block_state": {
-                    "facing": "up",
-                    "open": "true"
+                    "face": "wall",
+                    "facing": "east"
                 }
             }
         },

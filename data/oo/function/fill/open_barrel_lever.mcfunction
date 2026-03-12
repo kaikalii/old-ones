@@ -1,0 +1,12 @@
+execute if block ~ ~ ~ lever[face=floor,powered=false] positioned ~ ~-1 ~ if block ~ ~ ~ barrel unless block ~ ~ ~ barrel[facing=up] run return run function oo:fill/set_barrel_closed
+execute if block ~ ~ ~ lever[face=floor,powered=true] positioned ~ ~-1 ~ if block ~ ~ ~ barrel unless block ~ ~ ~ barrel[facing=up] run return run function oo:fill/set_barrel_open
+execute if block ~ ~ ~ lever[face=ceiling,powered=false] positioned ~ ~1 ~ if block ~ ~ ~ barrel unless block ~ ~ ~ barrel[facing=down] run return run function oo:fill/set_barrel_closed
+execute if block ~ ~ ~ lever[face=ceiling,powered=true] positioned ~ ~1 ~ if block ~ ~ ~ barrel unless block ~ ~ ~ barrel[facing=down] run return run function oo:fill/set_barrel_open
+execute if block ~ ~ ~ lever[face=wall,facing=east,powered=false] positioned ~-1 ~ ~ if block ~ ~ ~ barrel unless block ~ ~ ~ barrel[facing=east] run return run function oo:fill/set_barrel_closed
+execute if block ~ ~ ~ lever[face=wall,facing=east,powered=true] positioned ~-1 ~ ~ if block ~ ~ ~ barrel unless block ~ ~ ~ barrel[facing=east] run return run function oo:fill/set_barrel_open
+execute if block ~ ~ ~ lever[face=wall,facing=west,powered=false] positioned ~1 ~ ~ if block ~ ~ ~ barrel unless block ~ ~ ~ barrel[facing=west] run return run function oo:fill/set_barrel_closed
+execute if block ~ ~ ~ lever[face=wall,facing=west,powered=true] positioned ~1 ~ ~ if block ~ ~ ~ barrel unless block ~ ~ ~ barrel[facing=west] run return run function oo:fill/set_barrel_open
+execute if block ~ ~ ~ lever[face=wall,facing=south,powered=false] positioned ~ ~ ~-1 if block ~ ~ ~ barrel unless block ~ ~ ~ barrel[facing=south] run return run function oo:fill/set_barrel_closed
+execute if block ~ ~ ~ lever[face=wall,facing=south,powered=true] positioned ~ ~ ~-1 if block ~ ~ ~ barrel unless block ~ ~ ~ barrel[facing=south] run return run function oo:fill/set_barrel_open
+execute if block ~ ~ ~ lever[face=wall,facing=north,powered=false] positioned ~ ~ ~1 if block ~ ~ ~ barrel unless block ~ ~ ~ barrel[facing=north] run return run function oo:fill/set_barrel_closed
+execute if block ~ ~ ~ lever[face=wall,facing=north,powered=true] positioned ~ ~ ~1 if block ~ ~ ~ barrel unless block ~ ~ ~ barrel[facing=north] run return run function oo:fill/set_barrel_open

@@ -1,0 +1,6 @@
+execute if block ~ ~ ~ barrel[facing=up] run return run setblock ~ ~ ~ barrel[facing=up,open=true]
+execute if block ~ ~ ~ barrel[facing=down] run return run setblock ~ ~ ~ barrel[facing=down,open=true]
+execute if block ~ ~ ~ barrel[facing=north] run return run setblock ~ ~ ~ barrel[facing=north,open=true]
+execute if block ~ ~ ~ barrel[facing=south] run return run setblock ~ ~ ~ barrel[facing=south,open=true]
+execute if block ~ ~ ~ barrel[facing=east] run return run setblock ~ ~ ~ barrel[facing=east,open=true]
+execute if block ~ ~ ~ barrel[facing=west] run return run setblock ~ ~ ~ barrel[facing=west,open=true]

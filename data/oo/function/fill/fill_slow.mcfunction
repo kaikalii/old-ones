@@ -11,4 +11,4 @@ execute if score #items_changed oo matches 0 run return 0
 item modify entity @s contents {function:"set_count",count:-1,add:true}
 
 # Give advancement
-execute if items block ~ ~ ~ container.* #oo:props_open_barrel run advancement grant @p only oo:adventure/fill_barrel
+advancement grant @p only oo:adventure/fill_barrel

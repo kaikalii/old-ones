@@ -3,4 +3,4 @@ $loot insert ~ ~ ~ loot {pools:[{rolls:1,entries:[{type:item,name:"$(id)",functi
 # Destroy the entity
 kill @s
 # Give advancement
-execute if items block ~ ~ ~ container.* #oo:props_open_barrel run advancement grant @p only oo:adventure/fill_barrel
+advancement grant @p only oo:adventure/fill_barrel

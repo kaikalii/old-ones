@@ -7,8 +7,6 @@
 - Altimeter
 - Make pigs do something
 - Item movement mechanics
-  - Campfire output to barrel
-  - Change how proping open barrels works
   - Elevation?
   - Allay spawning?
 - Chest minecart loot replacement
