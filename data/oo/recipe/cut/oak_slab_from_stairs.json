@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "oak_stairs",
+    "result": {
+        "id": "oak_slab",
+        "count": 1
+    }
+}

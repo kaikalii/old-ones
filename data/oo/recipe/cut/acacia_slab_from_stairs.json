@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "acacia_stairs",
+    "result": {
+        "id": "acacia_slab",
+        "count": 1
+    }
+}

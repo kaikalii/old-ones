@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "mangrove_stairs",
+    "result": {
+        "id": "mangrove_slab",
+        "count": 1
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "cherry_pressure_plate",
+    "result": {
+        "id": "cherry_button",
+        "count": 2
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "birch_pressure_plate",
+    "result": {
+        "id": "birch_button",
+        "count": 2
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "cherry_planks",
+    "result": {
+        "id": "cherry_trapdoor",
+        "count": 1
+    }
+}

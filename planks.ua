@@ -86,6 +86,7 @@ LogCombo!⍚(&fwa⊃(
     $$ }
   ))
 
+# Plank cutting
 LogTags
 LogCombo!⍚(&fwa⊃(
     $"data/minecraft/recipe/_\_planks.json" Tree
@@ -99,3 +100,50 @@ LogCombo!⍚(&fwa⊃(
     $$   }
     $$ }
   ))
+
+# Plank derivatives
+[{"slab" 2} {"stairs" 1} {"pressure_plate" 1} {"button" 2} {"trapdoor" 1}]
+⊂ WoodKinds HyphaeKinds
+⊞(&fwa⊃(
+    $"data/oo/recipe/cut/_\__.json" ⊙⊢
+  | ⊓⟜∘°□₂
+    $$ {
+    $$     "type": "stonecutting",
+    $$     "ingredient": "_\_planks",
+    $$     "result": {
+    $$         "id": "_\__",
+    $$         "count": _
+    $$     }
+    $$ }
+  )
+)
+
+# Slab from stairs
+⊂ WoodKinds HyphaeKinds
+⍚(&fwa⊃(
+    $"data/oo/recipe/cut/_\_slab\_from\_stairs.json"
+  | ˙$$ {
+     $$     "type": "stonecutting",
+     $$     "ingredient": "_\_stairs",
+     $$     "result": {
+     $$         "id": "_\_slab",
+     $$         "count": 1
+     $$     }
+     $$ }
+  )
+)
+
+# Buttons from pressue plate
+⊂ WoodKinds HyphaeKinds
+⍚(&fwa⊃(
+    $"data/oo/recipe/cut/_\_buttons\_from\_pressure\_plate.json"
+  | ˙$$ {
+     $$     "type": "stonecutting",
+     $$     "ingredient": "_\_pressure\_plate",
+     $$     "result": {
+     $$         "id": "_\_button",
+     $$         "count": 2
+     $$     }
+     $$ }
+  )
+)

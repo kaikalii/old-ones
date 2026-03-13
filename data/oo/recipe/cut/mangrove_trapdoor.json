@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "mangrove_planks",
+    "result": {
+        "id": "mangrove_trapdoor",
+        "count": 1
+    }
+}

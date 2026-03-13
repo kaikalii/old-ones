@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "jungle_pressure_plate",
+    "result": {
+        "id": "jungle_button",
+        "count": 2
+    }
+}

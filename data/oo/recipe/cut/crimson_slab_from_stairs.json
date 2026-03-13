@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "crimson_stairs",
+    "result": {
+        "id": "crimson_slab",
+        "count": 1
+    }
+}

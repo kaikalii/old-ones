@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "mangrove_pressure_plate",
+    "result": {
+        "id": "mangrove_button",
+        "count": 2
+    }
+}

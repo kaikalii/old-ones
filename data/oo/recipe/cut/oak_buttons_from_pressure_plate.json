@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "oak_pressure_plate",
+    "result": {
+        "id": "oak_button",
+        "count": 2
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": "pale_oak_pressure_plate",
+    "result": {
+        "id": "pale_oak_button",
+        "count": 2
+    }
+}
