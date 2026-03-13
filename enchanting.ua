@@ -1,3 +1,5 @@
+~ "utils" ~ Slots
+
 UncraftableTools ← {
   "wooden_sword"
   "wooden_pickaxe"
@@ -110,7 +112,6 @@ MarkEnchant "spear" "lunge" 1 "sugar"
 # Enchantment reification
 &fmd⟜&fde "data/oo/function/enchant/with"
 &fmd⟜&fde "data/oo/item_modifier/enchant"
-Slots ← ⊂□"player.cursor" ⍚$"container._" ⇡₀53
 ~SetEnchant {Ench Level} ⊃(
   ⊙{"player.cursor""container.*"}
   ⍚⌞(⊃(⋅∘|EnchName Ench|Numeral Level|Ench|Level)

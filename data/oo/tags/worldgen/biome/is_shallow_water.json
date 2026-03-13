@@ -1,0 +1,10 @@
+{
+    "values": [
+        "ocean",
+        "cold_ocean",
+        "warm_ocean",
+        "frozen_ocean",
+        "lukewarm_ocean",
+        "#is_river"
+    ]
+}

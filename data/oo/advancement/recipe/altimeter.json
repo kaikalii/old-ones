@@ -1,0 +1,32 @@
+{
+  "parent": "recipes/root",
+  "criteria": {
+    "has_compass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "compass"
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "oo:altimeter"
+      },
+      "trigger": "recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_compass"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "oo:altimeter"
+    ]
+  }
+}

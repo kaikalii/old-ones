@@ -1,0 +1,11 @@
+{
+    "type": "smithing_transform",
+    "base": "compass",
+    "addition": "ghast_tear",
+    "result": {
+        "id": "compass",
+        "components": {
+            "item_name": "Altimeter"
+        }
+    }
+}

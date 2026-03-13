@@ -4,7 +4,6 @@
 - Expand enchanting system
   - Darksight
   - Light effects
-- Altimeter
 - Make pigs do something
 - Item movement mechanics
   - Elevation?

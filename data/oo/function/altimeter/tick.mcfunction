@@ -1,0 +1,1 @@
+execute as @a[nbt={SelectedItem:{id:"minecraft:compass",components:{"minecraft:item_name":"Altimeter"}}}] at @s run function oo:altimeter/tick_player
