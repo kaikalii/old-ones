@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "stick",
+    "X": "#oo:strong_ingot"
+  },
+  "pattern": [
+    "X X",
+    "X#X",
+    "X X"
+  ],
+  "result": {
+    "count": 16,
+    "id": "rail"
+  }
+}

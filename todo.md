@@ -11,7 +11,6 @@
 - Villager trade replacement
 - WT trade replacement
 - Do something about buckets
-- Rail recipes
 - Advancements
   - Flint
     - Stone Knife

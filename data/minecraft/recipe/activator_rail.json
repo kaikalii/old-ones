@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "redstone_torch",
+    "S": "stick",
+    "X": "#oo:strong_ingot"
+  },
+  "pattern": [
+    "XSX",
+    "X#X",
+    "XSX"
+  ],
+  "result": {
+    "count": 6,
+    "id": "activator_rail"
+  }
+}
