@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:adventure/root",
+    "parent": "adventure/root",
     "criteria": {
         "manual": {
             "trigger": "impossible"
@@ -9,7 +9,7 @@
         "description": "Use a copper trapdoor to drain a container",
         "icon": {
             "count": 1,
-            "id": "minecraft:copper_trapdoor",
+            "id": "copper_trapdoor",
             "components": {
                 "block_state": {
                     "facing": "east",
