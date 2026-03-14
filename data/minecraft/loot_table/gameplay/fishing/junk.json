@@ -32,6 +32,11 @@
         },
         {
           "type": "item",
+          "name": "rabbit_foot",
+          "weight": 10
+        },
+        {
+          "type": "item",
           "name": "glass_bottle",
           "weight": 10
         },

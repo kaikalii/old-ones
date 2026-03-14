@@ -11,6 +11,8 @@
 - Villager trade replacement
 - WT trade replacement
 - Do something about buckets
+- Loot
+  - Rabbit's foot
 - Advancements
   - Flint
     - Stone Knife
