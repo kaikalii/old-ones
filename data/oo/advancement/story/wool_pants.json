@@ -1,0 +1,28 @@
+{
+    "parent": "oo:story/crafting_table",
+    "criteria": {
+        "has_cloth_hat": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "leather_leggings",
+                        "components": {
+                            "item_name": "Wool Pants"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": "My Crafting Pants",
+        "description": "Craft Wool Pants",
+        "icon": {
+            "id": "leather_leggings",
+            "components": {
+                "dyed_color": 16383998
+            }
+        }
+    }
+}

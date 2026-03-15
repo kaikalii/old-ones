@@ -1,5 +1,5 @@
 {
-    "parent": "oo:story/stone_axe",
+    "parent": "oo:story/crafting_table",
     "criteria": {
         "has_furnace": {
             "trigger": "inventory_changed",

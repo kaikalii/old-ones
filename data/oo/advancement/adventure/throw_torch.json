@@ -1,0 +1,15 @@
+{
+    "parent": "adventure/root",
+    "criteria": {
+        "manual": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "title": "Light in the Darkness",
+        "description": "Throw a torch down into a dark area",
+        "icon": {
+            "id": "torch"
+        }
+    }
+}

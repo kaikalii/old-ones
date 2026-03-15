@@ -1,0 +1,39 @@
+{
+  "parent": "oo:story/copper_ingot",
+  "criteria": {
+    "deflected_projectile": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "is_projectile"
+              }
+            ]
+          },
+          "blocked": true
+        }
+      },
+      "trigger": "entity_hurt_player"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.story.deflect_arrow.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "shield"
+    },
+    "title": {
+      "translate": "advancements.story.deflect_arrow.title"
+    }
+  },
+  "requirements": [
+    [
+      "deflected_projectile"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,61 @@
+{
+    "parent": "oo:story/copper_ingot",
+    "criteria": {
+        "copper_boots": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "copper_boots"
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "copper_chestplate": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "copper_chestplate"
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "copper_helmet": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "copper_helmet"
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "copper_leggings": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "copper_leggings"
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        }
+    },
+    "display": {
+        "title": "Orange You Glad?",
+        "description": "Protect yourself with a piece of copper armor",
+        "icon": {
+            "id": "copper_helmet"
+        }
+    },
+    "requirements": [
+        [
+            "copper_helmet",
+            "copper_chestplate",
+            "copper_leggings",
+            "copper_boots"
+        ]
+    ],
+    "sends_telemetry_event": true
+}
