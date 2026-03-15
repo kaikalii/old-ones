@@ -1,0 +1,13 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_hoe",
+    "addition": "experience_bottle",
+    "result": {
+        "id": "copper_hoe",
+        "components": {
+            "lore": [
+                "Increased Potential"
+            ]
+        }
+    }
+}

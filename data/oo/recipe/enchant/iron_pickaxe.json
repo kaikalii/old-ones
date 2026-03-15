@@ -1,0 +1,13 @@
+{
+    "type": "smithing_transform",
+    "base": "iron_pickaxe",
+    "addition": "experience_bottle",
+    "result": {
+        "id": "iron_pickaxe",
+        "components": {
+            "lore": [
+                "Increased Potential"
+            ]
+        }
+    }
+}

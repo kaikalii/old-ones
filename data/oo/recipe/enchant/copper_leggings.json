@@ -1,0 +1,13 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_leggings",
+    "addition": "experience_bottle",
+    "result": {
+        "id": "copper_leggings",
+        "components": {
+            "lore": [
+                "Increased Potential"
+            ]
+        }
+    }
+}

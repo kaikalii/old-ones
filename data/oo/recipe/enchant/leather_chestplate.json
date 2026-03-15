@@ -1,0 +1,13 @@
+{
+    "type": "smithing_transform",
+    "base": "leather_chestplate",
+    "addition": "experience_bottle",
+    "result": {
+        "id": "leather_chestplate",
+        "components": {
+            "lore": [
+                "Increased Potential"
+            ]
+        }
+    }
+}

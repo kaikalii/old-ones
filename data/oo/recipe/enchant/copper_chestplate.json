@@ -1,0 +1,13 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_chestplate",
+    "addition": "experience_bottle",
+    "result": {
+        "id": "copper_chestplate",
+        "components": {
+            "lore": [
+                "Increased Potential"
+            ]
+        }
+    }
+}

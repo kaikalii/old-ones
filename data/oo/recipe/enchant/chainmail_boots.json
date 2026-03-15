@@ -1,0 +1,13 @@
+{
+    "type": "smithing_transform",
+    "base": "chainmail_boots",
+    "addition": "experience_bottle",
+    "result": {
+        "id": "chainmail_boots",
+        "components": {
+            "lore": [
+                "Increased Potential"
+            ]
+        }
+    }
+}

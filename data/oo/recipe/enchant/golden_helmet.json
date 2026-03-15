@@ -1,0 +1,13 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_helmet",
+    "addition": "experience_bottle",
+    "result": {
+        "id": "golden_helmet",
+        "components": {
+            "lore": [
+                "Increased Potential"
+            ]
+        }
+    }
+}

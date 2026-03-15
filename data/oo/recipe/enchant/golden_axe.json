@@ -1,0 +1,13 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_axe",
+    "addition": "experience_bottle",
+    "result": {
+        "id": "golden_axe",
+        "components": {
+            "lore": [
+                "Increased Potential"
+            ]
+        }
+    }
+}

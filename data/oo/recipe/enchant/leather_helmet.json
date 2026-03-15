@@ -1,0 +1,13 @@
+{
+    "type": "smithing_transform",
+    "base": "leather_helmet",
+    "addition": "experience_bottle",
+    "result": {
+        "id": "leather_helmet",
+        "components": {
+            "lore": [
+                "Increased Potential"
+            ]
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "description": "Potential",
+    "supported_items": "#enchantable/durability",
+    "weight": 1,
+    "max_level": 10,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+        "any"
+    ]
+}

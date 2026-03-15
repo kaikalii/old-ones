@@ -1,0 +1,13 @@
+{
+    "type": "smithing_transform",
+    "base": "chainmail_leggings",
+    "addition": "experience_bottle",
+    "result": {
+        "id": "chainmail_leggings",
+        "components": {
+            "lore": [
+                "Increased Potential"
+            ]
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "smithing_transform",
+    "base": "wooden_shovel",
+    "addition": "experience_bottle",
+    "result": {
+        "id": "wooden_shovel",
+        "components": {
+            "lore": [
+                "Increased Potential"
+            ]
+        }
+    }
+}

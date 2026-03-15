@@ -1,0 +1,13 @@
+{
+    "type": "smithing_transform",
+    "base": "stone_hoe",
+    "addition": "experience_bottle",
+    "result": {
+        "id": "stone_hoe",
+        "components": {
+            "lore": [
+                "Increased Potential"
+            ]
+        }
+    }
+}

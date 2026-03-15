@@ -1,0 +1,13 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_hoe",
+    "addition": "experience_bottle",
+    "result": {
+        "id": "golden_hoe",
+        "components": {
+            "lore": [
+                "Increased Potential"
+            ]
+        }
+    }
+}

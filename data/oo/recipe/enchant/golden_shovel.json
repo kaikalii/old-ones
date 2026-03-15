@@ -1,0 +1,13 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_shovel",
+    "addition": "experience_bottle",
+    "result": {
+        "id": "golden_shovel",
+        "components": {
+            "lore": [
+                "Increased Potential"
+            ]
+        }
+    }
+}

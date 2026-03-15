@@ -1,0 +1,13 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_boots",
+    "addition": "experience_bottle",
+    "result": {
+        "id": "copper_boots",
+        "components": {
+            "lore": [
+                "Increased Potential"
+            ]
+        }
+    }
+}

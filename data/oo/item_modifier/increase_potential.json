@@ -1,0 +1,15 @@
+[
+    {
+        "function": "set_enchantments",
+        "enchantments": {
+            "oo:potential": 1
+        },
+        "add": true
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "!lore": {}
+        }
+    }
+]
