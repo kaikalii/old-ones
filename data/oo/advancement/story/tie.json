@@ -1,0 +1,22 @@
+{
+    "parent": "story/root",
+    "criteria": {
+        "has_tie": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#oo:tie"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": "Tied Up",
+        "description": "Acquire tieable fiber",
+        "icon": {
+            "id": "string"
+        }
+    }
+}

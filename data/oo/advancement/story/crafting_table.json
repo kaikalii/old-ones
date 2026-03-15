@@ -1,0 +1,22 @@
+{
+    "parent": "oo:story/planks",
+    "criteria": {
+        "has_crafting_table": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "crafting_table"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": "Increasing Complexity",
+        "description": "Craft a Crafting Table",
+        "icon": {
+            "id": "crafting_table"
+        }
+    }
+}

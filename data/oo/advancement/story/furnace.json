@@ -1,0 +1,22 @@
+{
+    "parent": "oo:story/stone_axe",
+    "criteria": {
+        "has_furnace": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "furnace"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": "Let Me Cook",
+        "description": "Craft a Furnace",
+        "icon": {
+            "id": "furnace"
+        }
+    }
+}

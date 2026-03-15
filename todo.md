@@ -3,7 +3,10 @@
 - "Leather" recipe
 - Expand enchanting system
   - Darksight
+  - Naturesight
+  - Fabricsight
   - Light effects
+  - Recipe advancements
 - Make pigs do something
 - Item movement mechanics
   - Elevation?
@@ -13,16 +16,3 @@
 - Do something about buckets
 - Loot
   - Rabbit's foot
-- Advancements
-  - Flint
-    - Stone Knife
-      - String
-        - Stone Axe
-          - Planks
-            - Crafting Table
-          - Copper
-            - Copper Pick
-              - Stone
-                - Blast Furnace
-                  - Iron
-                    - Iron Pick

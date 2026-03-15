@@ -5,5 +5,6 @@ execute as @s[nbt={Item:{id:"minecraft:tropical_fish"}}] run summon tropical_fis
 
 execute if function oo:random/3 run effect give @p luck 60 0 false
 summon experience_orb ~ ~ ~ {Value:2}
+advancement grant @p only oo:husbandry/throw_fish_back
 
 kill @s

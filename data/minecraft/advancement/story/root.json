@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "has_stone_blade": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "shears",
+                        "components": {
+                            "item_name": "Stone Blade"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": "Minecraft",
+        "description": "Craft a Stone Blade from flint",
+        "icon": {
+            "id": "flint"
+        },
+        "background": "block/stone"
+    }
+}

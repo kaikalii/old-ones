@@ -1,0 +1,33 @@
+{
+  "parent": "oo:story/blast_furnace",
+  "criteria": {
+    "iron": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot"
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "Craft an Iron Ingot from nuggets"
+    },
+    "icon": {
+      "count": 1,
+      "id": "iron_ingot"
+    },
+    "title": {
+      "translate": "advancements.story.smelt_iron.title"
+    }
+  },
+  "requirements": [
+    [
+      "iron"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -63,6 +63,8 @@ ColorNames ← {"white" "orange" "magenta" "light_blue" "yellow" "lime" "pink" "
   "nether/netherite_armor"
   "husbandry/obtain_netherite_hoe"
   "adventure/crafters_crafting_crafters"
+  "story/enchant_item"
+  "story/mine_stone"
 }
 /◇⊂₃",\n      "⍚$$ {"namespace": "minecraft", "path": "advancement/_.json"}
 

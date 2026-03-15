@@ -1,0 +1,22 @@
+{
+    "parent": "oo:story/stone_axe",
+    "criteria": {
+        "has_planks": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#planks"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": "Planking",
+        "description": "Cut a stripped log into planks",
+        "icon": {
+            "id": "oak_planks"
+        }
+    }
+}

@@ -38,6 +38,8 @@ execute if items entity @s container.* *[lore=["+Smite I"]] run function oo:ench
 execute if items entity @s player.cursor *[lore=["+Unbreaking I"]] run function oo:enchant/with/unbreaking_1
 execute if items entity @s container.* *[lore=["+Unbreaking I"]] run function oo:enchant/with/unbreaking_1
 
+advancement grant @s only oo:story/enhance
+
 execute if items entity @s player.cursor *[custom_data={enchant:true}] run return run item modify entity @s player.cursor {function:"set_components",components:{"!custom_data":{},"!lore":{}}}
 execute if items entity @s container.0 *[custom_data={enchant:true}] run return run item modify entity @s container.0 {function:"set_components",components:{"!custom_data":{},"!lore":{}}}
 execute if items entity @s container.1 *[custom_data={enchant:true}] run return run item modify entity @s container.1 {function:"set_components",components:{"!custom_data":{},"!lore":{}}}

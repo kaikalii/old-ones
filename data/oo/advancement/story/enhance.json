@@ -1,0 +1,15 @@
+{
+    "parent": "oo:story/copper_ingot",
+    "criteria": {
+        "manual": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "title": "John Smith",
+        "description": "Enchance a piece of equipment at a Smithing Table",
+        "icon": {
+            "id": "smithing_table"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "parent": "oo:story/copper_pick",
+    "criteria": {
+        "has_blast_furnace": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "blast_furnace"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": "Blasting Off",
+        "description": "Craft a Blast Furnace",
+        "icon": {
+            "id": "blast_furnace"
+        }
+    }
+}

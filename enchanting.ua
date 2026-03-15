@@ -158,7 +158,7 @@ MarkEnchant "spear" "lunge" 1 "sugar"
 ]
 ⍚°{°SetEnchant}
 ⊂{"# This file is generated"}
-˜⊂{""}
+˜⊂{"""advancement grant @s only oo:story/enhance"""}
 Slots
 ˜⊂⍚˙$$ execute if items entity @s _ *[custom\_data={enchant:true}] run return run item modify entity @s _ {function:"set\_components",components:{"!custom\_data":{},"!lore":{}}}
 /◇⊂₃ @\n

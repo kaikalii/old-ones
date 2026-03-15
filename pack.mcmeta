@@ -10,6 +10,8 @@
       {"namespace": "minecraft", "path": "advancement/nether/netherite_armor.json"},
       {"namespace": "minecraft", "path": "advancement/husbandry/obtain_netherite_hoe.json"},
       {"namespace": "minecraft", "path": "advancement/adventure/crafters_crafting_crafters.json"},
+      {"namespace": "minecraft", "path": "advancement/story/enchant_item.json"},
+      {"namespace": "minecraft", "path": "advancement/story/mine_stone.json"},
       {"namespace": "minecraft", "path": "recipe/coal_from_blasting_coal_ore.json"},
       {"namespace": "minecraft", "path": "recipe/coal_from_blasting_deepslate_coal_ore.json"},
       {"namespace": "minecraft", "path": "recipe/coal_from_smelting_coal_ore.json"},

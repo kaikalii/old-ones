@@ -1,0 +1,22 @@
+{
+    "parent": "oo:story/copper_ingot",
+    "criteria": {
+        "has_copper_pick": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "copper_pickaxe"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": "Yearn for the Mines",
+        "description": "Craft a Copper Pickaxe",
+        "icon": {
+            "id": "copper_pickaxe"
+        }
+    }
+}

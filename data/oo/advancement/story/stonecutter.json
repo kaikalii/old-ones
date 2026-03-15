@@ -1,0 +1,22 @@
+{
+    "parent": "oo:story/copper_ingot",
+    "criteria": {
+        "has_stone_axe": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "stonecutter"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": "Economies of Scale",
+        "description": "Craft a Cutter",
+        "icon": {
+            "id": "stonecutter"
+        }
+    }
+}

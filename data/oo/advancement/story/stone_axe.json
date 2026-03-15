@@ -1,0 +1,22 @@
+{
+    "parent": "oo:story/tie",
+    "criteria": {
+        "has_stone_axe": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "stone_axe"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": "Bara Bara",
+        "description": "Craft a Stone Axe",
+        "icon": {
+            "id": "stone_axe"
+        }
+    }
+}

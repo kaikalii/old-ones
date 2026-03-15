@@ -1,0 +1,22 @@
+{
+    "parent": "oo:story/furnace",
+    "criteria": {
+        "has_copper_ingot": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "copper_ingot"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": "Cu Later",
+        "description": "Craft a Copper Ingot from nuggets",
+        "icon": {
+            "id": "copper_ingot"
+        }
+    }
+}
