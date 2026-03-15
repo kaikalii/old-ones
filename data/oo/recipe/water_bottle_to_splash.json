@@ -6,7 +6,10 @@
     "result": {
         "id": "splash_potion",
         "components": {
-            "custom_name": "Splash Bottle"
+            "custom_name": {
+                "text": "Splash Bottle",
+                "italic": false
+            }
         }
     }
 }
