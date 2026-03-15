@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "stick",
+    "$": "tripwire_hook",
+    "&": "#oo:strong_ingot",
+    "~": "string"
+  },
+  "pattern": [
+    "#&#",
+    "~$~",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "crossbow"
+  }
+}
