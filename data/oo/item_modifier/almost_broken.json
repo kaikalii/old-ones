@@ -1,0 +1,19 @@
+[
+    {
+        "function": "set_enchantments",
+        "enchantments": {
+            "unbreaking": 1
+        },
+        "add": true
+    },
+    {
+        "function": "reference",
+        "name": "oo:decrease_potential"
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "damage": 0
+        }
+    }
+]

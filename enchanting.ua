@@ -51,7 +51,9 @@ Slots
 /◇⊂₃ @\n
 &fwa "data/oo/function/enchant/player_increase.mcfunction"
 
-# "golden"Equipment damage
+# Equipment damage tracking
+
+# Armor
 ArmorDur ← [
   [55 80 75 65]
   [77 112 105 91]
@@ -61,21 +63,21 @@ ArmorDur ← [
 ]
 {"head""chest""legs""feet"} ⍉⊞⍚$"_\__" ArmorPrefixes ArmorKinds ⍉ArmorDur
 ⍚(
-  &fwa $"data/oo/function/enchant/set\_damage\__.mcfunction"⟜(
+  &fwa $"data/oo/function/enchant/set\_remaining\__.mcfunction"⟜(
     ⍚⌞(
       ⊃⊙∘⊙⋅∘
-      $$ execute as @s[nbt={equipment:{_: {id:"minecraft:_"}}}] run return run scoreboard players set #_\_remaining oo _
+      $$ execute if items entity @s armor._ _ run return run scoreboard players set #_\_remaining oo _
     )
     ⊂{"# This file is generated"}
     /◇⊂₃ @\n
   )
 )
-
+# Tools & Weapons
 [32 59 131 191 250 64 384 465 250 500]
 ⊂ ⍚$"#oo:tools/_"ToolPrefixes {"fishing_rod" "bow" "crossbow" "trident" "mace"}
 {"mainhand""offhand"}
 ⍚⌟₂(
-  &fwa $"data/oo/function/enchant/set\_damage\__.mcfunction"⟜(
+  &fwa $"data/oo/function/enchant/set\_remaining\__.mcfunction"⟜(
     ⍚⌞(
       ∩⌞⊙∘
       $$ execute if items entity @s weapon._ _ run return run scoreboard players set #_\_remaining oo _

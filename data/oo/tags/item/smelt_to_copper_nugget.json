@@ -1,12 +1,7 @@
 {
     "values": [
         "raw_copper",
-        "copper_pickaxe",
-        "copper_shovel",
-        "copper_axe",
-        "copper_hoe",
-        "copper_sword",
-        "copper_spear",
+        "#oo:tools/copper",
         "copper_helmet",
         "copper_chestplate",
         "copper_leggings",

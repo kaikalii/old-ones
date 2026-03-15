@@ -1,12 +1,7 @@
 {
     "values": [
         "raw_iron",
-        "iron_pickaxe",
-        "iron_shovel",
-        "iron_axe",
-        "iron_hoe",
-        "iron_sword",
-        "iron_spear",
+        "#oo:tools/iron",
         "iron_helmet",
         "iron_chestplate",
         "iron_leggings",

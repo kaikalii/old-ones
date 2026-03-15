@@ -1,16 +1,8 @@
 {
     "values": [
         "raw_gold",
-        "golden_pickaxe",
-        "golden_shovel",
-        "golden_axe",
-        "golden_hoe",
-        "golden_sword",
-        "golden_spear",
-        "golden_helmet",
-        "golden_chestplate",
-        "golden_leggings",
-        "golden_boots",
+        "#oo:armor/golden",
+        "#oo:tools/golden",
         "golden_horse_armor",
         "golden_nautilus_armor"
     ]
