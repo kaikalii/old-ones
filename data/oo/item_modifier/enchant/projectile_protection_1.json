@@ -1,1 +1,1 @@
-{"enchantments":{"projectile_protection":1},"function":"set_enchantments"}
+[{"enchantments":{"projectile_protection":1},"function":"set_enchantments"},{"add":true,"enchantments":{"protection":-255},"function":"set_enchantments"},{"add":true,"enchantments":{"blast_protection":-255},"function":"set_enchantments"},{"add":true,"enchantments":{"fire_protection":-255},"function":"set_enchantments"}]

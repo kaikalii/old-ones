@@ -1,1 +1,1 @@
-{"enchantments":{"silk_touch":1},"function":"set_enchantments"}
+[{"enchantments":{"silk_touch":1},"function":"set_enchantments"},{"add":true,"enchantments":{"fortune":-255},"function":"set_enchantments"}]

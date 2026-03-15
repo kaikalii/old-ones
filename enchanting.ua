@@ -112,16 +112,18 @@ MarkEnchant "spear" "lunge" 1 "sugar"
 # Enchantment reification
 &fmd⟜&fde "data/oo/function/enchant/with"
 &fmd⟜&fde "data/oo/item_modifier/enchant"
-~SetEnchant {Ench Level} ⊃(
+~SetEnchant {Ench Level Exclude} ⊃(
   ⊙{"player.cursor""container.*"}
   ⍚⌞(⊃(⋅∘|EnchName Ench|Numeral Level|Ench|Level)
      $$ execute if items entity @s _ *[lore=["+_ _"]] run function oo:enchant/with/_\__
   )
   /◇⊂₃ @\n
-| ⊃Ench Level
-  &fwa⊃(
-    $"data/oo/item\_modifier/enchant/_\__.json"
-  | json map {"function""enchantments"}{"set_enchantments" map∩¤}
+| &fwa⊃(
+    $"data/oo/item\_modifier/enchant/_\__.json" ⊃Ench Level
+  | json ⍣°□₁∘ ⊂⊃(
+      □map {"function""enchantments"}{"set_enchantments" map∩¤} ⊃Ench Level
+    | ⍚(map {"function""add""enchantments"}{"set_enchantments" True map∩¤⊙¯255}) Exclude
+    )
   )
 | &fwa⊃(
     $"data/oo/function/enchant/with/_\__.mcfunction" ⊃Ench Level
@@ -134,25 +136,25 @@ MarkEnchant "spear" "lunge" 1 "sugar"
   )
 )
 [
-  {"aqua_affinity" 1}
-  {"bane_of_arthropods" 1}
-  {"efficiency" 1}
-  {"depth_strider" 1}
-  {"feather_falling" 1}
-  {"fire_protection" 2}
-  {"fortune" 1}
-  {"knockback" 1}
-  {"looting" 1}
-  {"luck_of_the_sea" 1}
-  {"lunge" 1}
-  {"projectile_protection" 1}
-  {"respiration" 1}
-  {"respiration" 2}
-  {"sharpness" 1}
-  {"sharpness" 2}
-  {"silk_touch" 1}
-  {"smite" 1}
-  {"unbreaking" 1}
+  {"aqua_affinity" 1 {}}
+  {"bane_of_arthropods" 1 {"smite""sharpness""breach""density"}}
+  {"efficiency" 1 {}}
+  {"depth_strider" 1 {"frost_walker"}}
+  {"feather_falling" 1 {}}
+  {"fire_protection" 2 {"blast_protection""protection""projectile_protection"}}
+  {"fortune" 1 {"silk_touch"}}
+  {"knockback" 1 {}}
+  {"looting" 1 {}}
+  {"luck_of_the_sea" 1 {}}
+  {"lunge" 1 {}}
+  {"projectile_protection" 1 {"protection""blast_protection""fire_protection"}}
+  {"respiration" 1 {}}
+  {"respiration" 2 {}}
+  {"sharpness" 1 {"bane_of_arthropods""smite""breach""density"}}
+  {"sharpness" 2 {"bane_of_arthropods""smite""breach""density"}}
+  {"silk_touch" 1 {"fortune"}}
+  {"smite" 1 {"bane_of_arthropods""sharpness""breach""density"}}
+  {"unbreaking" 1 {}}
 ]
 ⍚°{°SetEnchant}
 ⊂{"# This file is generated"}
