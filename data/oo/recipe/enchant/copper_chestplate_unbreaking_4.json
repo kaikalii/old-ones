@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_chestplate",
+    "addition": "copper_block",
+    "template": "experience_bottle",
+    "result": {
+        "id": "copper_chestplate",
+        "components": {
+            "lore": [
+                "+Unbreaking IV"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

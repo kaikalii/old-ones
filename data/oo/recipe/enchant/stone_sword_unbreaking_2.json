@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "stone_sword",
+    "addition": "copper_ingot",
+    "result": {
+        "id": "stone_sword",
+        "components": {
+            "lore": [
+                "+Unbreaking II"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

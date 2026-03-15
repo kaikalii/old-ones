@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "iron_chestplate",
+    "addition": "iron_block",
+    "result": {
+        "id": "iron_chestplate",
+        "components": {
+            "lore": [
+                "+Unbreaking II"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

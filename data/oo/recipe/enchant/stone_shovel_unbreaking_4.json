@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "stone_shovel",
+    "addition": "copper_ingot",
+    "template": "experience_bottle",
+    "result": {
+        "id": "stone_shovel",
+        "components": {
+            "lore": [
+                "+Unbreaking IV"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

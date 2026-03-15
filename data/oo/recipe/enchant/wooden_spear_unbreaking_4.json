@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "wooden_spear",
+    "addition": "bone",
+    "template": "experience_bottle",
+    "result": {
+        "id": "wooden_spear",
+        "components": {
+            "lore": [
+                "+Unbreaking IV"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

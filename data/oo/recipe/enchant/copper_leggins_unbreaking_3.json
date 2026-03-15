@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_leggins",
+    "addition": "copper_ingot",
+    "template": "experience_bottle",
+    "result": {
+        "id": "copper_leggins",
+        "components": {
+            "lore": [
+                "+Unbreaking III"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

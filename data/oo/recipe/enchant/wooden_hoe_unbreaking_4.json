@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "wooden_hoe",
+    "addition": "bone",
+    "template": "experience_bottle",
+    "result": {
+        "id": "wooden_hoe",
+        "components": {
+            "lore": [
+                "+Unbreaking IV"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

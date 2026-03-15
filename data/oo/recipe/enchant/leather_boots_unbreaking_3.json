@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "leather_boots",
+    "addition": "leather",
+    "template": "experience_bottle",
+    "result": {
+        "id": "leather_boots",
+        "components": {
+            "lore": [
+                "+Unbreaking III"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

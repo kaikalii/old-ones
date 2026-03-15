@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "iron_shovel",
+    "addition": "iron_block",
+    "result": {
+        "id": "iron_shovel",
+        "components": {
+            "lore": [
+                "+Unbreaking II"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

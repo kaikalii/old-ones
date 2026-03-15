@@ -37,6 +37,12 @@ execute if items entity @s player.cursor *[lore=["+Smite I"]] run function oo:en
 execute if items entity @s container.* *[lore=["+Smite I"]] run function oo:enchant/with/smite_1
 execute if items entity @s player.cursor *[lore=["+Unbreaking I"]] run function oo:enchant/with/unbreaking_1
 execute if items entity @s container.* *[lore=["+Unbreaking I"]] run function oo:enchant/with/unbreaking_1
+execute if items entity @s player.cursor *[lore=["+Unbreaking II"]] run function oo:enchant/with/unbreaking_2
+execute if items entity @s container.* *[lore=["+Unbreaking II"]] run function oo:enchant/with/unbreaking_2
+execute if items entity @s player.cursor *[lore=["+Unbreaking III"]] run function oo:enchant/with/unbreaking_3
+execute if items entity @s container.* *[lore=["+Unbreaking III"]] run function oo:enchant/with/unbreaking_3
+execute if items entity @s player.cursor *[lore=["+Unbreaking IV"]] run function oo:enchant/with/unbreaking_4
+execute if items entity @s container.* *[lore=["+Unbreaking IV"]] run function oo:enchant/with/unbreaking_4
 
 advancement grant @s only oo:story/enhance
 

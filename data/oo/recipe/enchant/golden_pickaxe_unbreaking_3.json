@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_pickaxe",
+    "addition": "gold_ingot",
+    "template": "experience_bottle",
+    "result": {
+        "id": "golden_pickaxe",
+        "components": {
+            "lore": [
+                "+Unbreaking III"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

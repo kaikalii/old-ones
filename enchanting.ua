@@ -13,14 +13,23 @@ UncraftableTools ← {
 &fmd⟜&fde "data/oo/recipe/enchant_dummy"
 Numeral  ← ⊏⊙{"I""II""III""IV""V"}-1
 EnchName ← ⍜⊜□(⍜▽⍚⍜⊢⌵ >2⊸≡◇⧻) ⊃¬(+×/-"_ ")⊸=@_
-~MarkEnchant {Tool Ench Level Mat} ⊃(
+~MarkEnchant {
+  Tool
+  Ench
+  Level
+  Mat
+  Bottle ← 0
+} ⊃(
   &fwa⊃(
     $"data/oo/recipe/enchant/_\__\__.json" ⊃(Tool|Ench|Level)
-  | ⊃(Tool|Mat|Tool|EnchName Ench|Numeral Level)
+  | ⊃(Tool
+    | Mat | ˜▽"\n    \"template\": \"experience_bottle\"," Bottle
+    | Tool
+    | EnchName Ench | Numeral Level)
     $$ {
     $$     "type": "smithing\_transform",
     $$     "base": "_",
-    $$     "addition": "_",
+    $$     "addition": "_",_
     $$     "result": {
     $$         "id": "_",
     $$         "components": {
@@ -68,6 +77,7 @@ EnchName ← ⍜⊜□(⍜▽⍚⍜⊢⌵ >2⊸≡◇⧻) ⊃¬(+×/-"_ ")⊸=@_
     $$     }
     $$ }
   ))
+MarkEnchant′ ← MarkEnchant!°⊸Bottle 1
 
 ToolKinds            ← {"pickaxe""axe""shovel""hoe"}
 WeaponKinds          ← {"sword""axe""spear"}
@@ -75,8 +85,10 @@ DedicatedWeaponKinds ← {"sword""spear"}
 ArmorKinds           ← {"helmet""chestplate""leggins""boots"}
 ToolPrefixes         ← {"wooden""stone""copper""golden""iron"}
 ToolMats             ← {"stick" "stick" "copper_ingot" "gold_ingot" "iron_ingot"}
+ToolStrongMats       ← {"bone" "copper_ingot" "copper_block" "gold_block" "iron_block"}
 ArmorPrefixes        ← {"leather""copper""golden""iron"}
 ArmorMats            ← {"leather""copper_ingot""gold_ingot""iron_ingot"}
+ArmorStrongMats      ← {"copper_ingot""copper_block""gold_block""iron_block"}
 Tools                ← ▽¬⊸∊UncraftableTools ♭⊞⍚$"_\__"ToolPrefixes ToolKinds
 Weapons              ← ▽¬⊸∊UncraftableTools ♭⊞⍚$"_\__"ToolPrefixes WeaponKinds
 DedicatedWeapons     ← ▽¬⊸∊UncraftableTools ♭⊞⍚$"_\__"ToolPrefixes DedicatedWeaponKinds
@@ -107,7 +119,17 @@ MarkEnchant "spear" "lunge" 1 "sugar"
 
 ♭₂⊞/⊂₃ ⊂ ToolKinds WeaponKinds ≡⊟ToolPrefixes ToolMats
 ♭₂⊞/⊂₃ ArmorKinds ≡⊟ArmorPrefixes ArmorMats
-≡(MarkEnchant⊓$"_\__"("unbreaking"1∘) °□₃) ⊂
+≡(⊃(MarkEnchant⊓$"_\__"("unbreaking"1)
+  | MarkEnchant′⊓$"_\__"("unbreaking"3)
+  ) °□₃
+) ⊂
+
+♭₂⊞/⊂₃ ⊂ ToolKinds WeaponKinds ≡⊟ToolPrefixes ToolStrongMats
+♭₂⊞/⊂₃ ArmorKinds ≡⊟ArmorPrefixes ArmorStrongMats
+≡(⊃(MarkEnchant⊓$"_\__"("unbreaking"2)
+  | MarkEnchant′⊓$"_\__"("unbreaking"4)
+  ) °□₃
+) ⊂
 
 # Enchantment reification
 &fmd⟜&fde "data/oo/function/enchant/with"
@@ -155,6 +177,9 @@ MarkEnchant "spear" "lunge" 1 "sugar"
   {"silk_touch" 1 {"fortune"}}
   {"smite" 1 {"bane_of_arthropods""sharpness""breach""density"}}
   {"unbreaking" 1 {}}
+  {"unbreaking" 2 {}}
+  {"unbreaking" 3 {}}
+  {"unbreaking" 4 {}}
 ]
 ⍚°{°SetEnchant}
 ⊂{"# This file is generated"}

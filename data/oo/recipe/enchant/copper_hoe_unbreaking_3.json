@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_hoe",
+    "addition": "copper_ingot",
+    "template": "experience_bottle",
+    "result": {
+        "id": "copper_hoe",
+        "components": {
+            "lore": [
+                "+Unbreaking III"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

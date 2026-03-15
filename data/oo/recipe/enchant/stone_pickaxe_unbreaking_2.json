@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "stone_pickaxe",
+    "addition": "copper_ingot",
+    "result": {
+        "id": "stone_pickaxe",
+        "components": {
+            "lore": [
+                "+Unbreaking II"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

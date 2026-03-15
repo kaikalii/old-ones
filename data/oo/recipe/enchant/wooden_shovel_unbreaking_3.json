@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "wooden_shovel",
+    "addition": "stick",
+    "template": "experience_bottle",
+    "result": {
+        "id": "wooden_shovel",
+        "components": {
+            "lore": [
+                "+Unbreaking III"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

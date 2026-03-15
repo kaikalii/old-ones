@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_spear",
+    "addition": "copper_block",
+    "template": "experience_bottle",
+    "result": {
+        "id": "copper_spear",
+        "components": {
+            "lore": [
+                "+Unbreaking IV"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

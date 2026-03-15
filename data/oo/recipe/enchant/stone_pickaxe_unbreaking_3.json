@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "stone_pickaxe",
+    "addition": "stick",
+    "template": "experience_bottle",
+    "result": {
+        "id": "stone_pickaxe",
+        "components": {
+            "lore": [
+                "+Unbreaking III"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

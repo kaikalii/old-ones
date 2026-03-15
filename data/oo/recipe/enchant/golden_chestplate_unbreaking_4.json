@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_chestplate",
+    "addition": "gold_block",
+    "template": "experience_bottle",
+    "result": {
+        "id": "golden_chestplate",
+        "components": {
+            "lore": [
+                "+Unbreaking IV"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

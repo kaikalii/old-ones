@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "leather_chestplate",
+    "addition": "copper_ingot",
+    "template": "experience_bottle",
+    "result": {
+        "id": "leather_chestplate",
+        "components": {
+            "lore": [
+                "+Unbreaking IV"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

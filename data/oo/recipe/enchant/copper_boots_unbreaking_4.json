@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "copper_boots",
+    "addition": "copper_block",
+    "template": "experience_bottle",
+    "result": {
+        "id": "copper_boots",
+        "components": {
+            "lore": [
+                "+Unbreaking IV"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

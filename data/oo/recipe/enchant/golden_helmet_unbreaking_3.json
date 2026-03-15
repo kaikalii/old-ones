@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_helmet",
+    "addition": "gold_ingot",
+    "template": "experience_bottle",
+    "result": {
+        "id": "golden_helmet",
+        "components": {
+            "lore": [
+                "+Unbreaking III"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "wooden_shovel",
+    "addition": "bone",
+    "template": "experience_bottle",
+    "result": {
+        "id": "wooden_shovel",
+        "components": {
+            "lore": [
+                "+Unbreaking IV"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "wooden_hoe",
+    "addition": "bone",
+    "result": {
+        "id": "wooden_hoe",
+        "components": {
+            "lore": [
+                "+Unbreaking II"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

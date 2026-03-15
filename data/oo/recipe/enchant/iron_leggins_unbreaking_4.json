@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "iron_leggins",
+    "addition": "iron_block",
+    "template": "experience_bottle",
+    "result": {
+        "id": "iron_leggins",
+        "components": {
+            "lore": [
+                "+Unbreaking IV"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

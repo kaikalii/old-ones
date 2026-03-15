@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "iron_shovel",
+    "addition": "iron_ingot",
+    "template": "experience_bottle",
+    "result": {
+        "id": "iron_shovel",
+        "components": {
+            "lore": [
+                "+Unbreaking III"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

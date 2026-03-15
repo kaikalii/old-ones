@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_hoe",
+    "addition": "gold_block",
+    "template": "experience_bottle",
+    "result": {
+        "id": "golden_hoe",
+        "components": {
+            "lore": [
+                "+Unbreaking IV"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

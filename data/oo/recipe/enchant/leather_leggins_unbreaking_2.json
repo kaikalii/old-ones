@@ -1,0 +1,16 @@
+{
+    "type": "smithing_transform",
+    "base": "leather_leggins",
+    "addition": "copper_ingot",
+    "result": {
+        "id": "leather_leggins",
+        "components": {
+            "lore": [
+                "+Unbreaking II"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}

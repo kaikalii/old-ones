@@ -1,0 +1,17 @@
+{
+    "type": "smithing_transform",
+    "base": "leather_helmet",
+    "addition": "copper_ingot",
+    "template": "experience_bottle",
+    "result": {
+        "id": "leather_helmet",
+        "components": {
+            "lore": [
+                "+Unbreaking IV"
+            ],
+            "custom_data": {
+                "enchant": true
+            }
+        }
+    }
+}
