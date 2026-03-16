@@ -1,0 +1,18 @@
+{
+    "description": "Darksight",
+    "supported_items": "#head_armor",
+    "weight": 8,
+    "max_level": 1,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 41,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "head"
+    ]
+}

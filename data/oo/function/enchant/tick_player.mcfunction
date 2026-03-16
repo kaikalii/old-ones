@@ -7,6 +7,9 @@ scoreboard players remove @s oo.drink 32
 execute if score @s oo.drink matches ..0 run scoreboard players set @s oo.drink 0
 execute if score @s oo.drink matches 32 run function oo:enchant/drank_potion
 
+# Darksight
+execute if data entity @s equipment.head.components."minecraft:enchantments"."oo:potential" unless data entity @s equipment.head.components."minecraft:enchantments"."oo:darksight" if predicate oo:very_dark run function oo:enchant/with {slot:armor.head,ench:"darksight"}
+
 # Get damage
 scoreboard players set #mainhand_damage oo 0
 scoreboard players set #offhand_damage oo 0
@@ -72,16 +75,9 @@ scoreboard players operation #legs_remaining oo -= #legs_damage oo
 scoreboard players operation #feet_remaining oo -= #feet_damage oo
 
 # Enchant
-execute if score #mainhand_remaining oo matches 1..5 run item modify entity @s weapon.mainhand oo:enchant/unbreaking
-execute if score #offhand_remaining oo matches 1..5 run item modify entity @s weapon.offhand oo:enchant/unbreaking
-execute if score #head_remaining oo matches 1..5 run item modify entity @s armor.head oo:enchant/unbreaking
-execute if score #chest_remaining oo matches 1..5 run item modify entity @s armor.chest oo:enchant/unbreaking
-execute if score #legs_remaining oo matches 1..5 run item modify entity @s armor.legs oo:enchant/unbreaking
-execute if score #feet_remaining oo matches 1..5 run item modify entity @s armor.feet oo:enchant/unbreaking
-# Do effect
-execute if score #mainhand_remaining oo matches 1..5 run function oo:enchant/effect
-execute if score #offhand_remaining oo matches 1..5 run function oo:enchant/effect
-execute if score #head_remaining oo matches 1..5 run function oo:enchant/effect
-execute if score #chest_remaining oo matches 1..5 run function oo:enchant/effect
-execute if score #legs_remaining oo matches 1..5 run function oo:enchant/effect
-execute if score #feet_remaining oo matches 1..5 run function oo:enchant/effect
+execute if score #mainhand_remaining oo matches 1..5 run function oo:enchant/with {slot:weapon.mainhand,ench:unbreaking}
+execute if score #offhand_remaining oo matches 1..5 run function oo:enchant/with {slot:weapon.offhand,ench:unbreaking}
+execute if score #head_remaining oo matches 1..5 run function oo:enchant/with {slot:armor.head,ench:unbreaking}
+execute if score #chest_remaining oo matches 1..5 run function oo:enchant/with {slot:armor.chest,ench:unbreaking}
+execute if score #legs_remaining oo matches 1..5 run function oo:enchant/with {slot:armor.legs,ench:unbreaking}
+execute if score #feet_remaining oo matches 1..5 run function oo:enchant/with {slot:armor.feet,ench:unbreaking}

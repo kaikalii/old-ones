@@ -1,0 +1,12 @@
+[
+    {
+        "function": "set_enchantments",
+        "enchantments": {
+            "oo:darksight": 1
+        }
+    },
+    {
+        "function": "reference",
+        "name": "oo:decrease_potential"
+    }
+]

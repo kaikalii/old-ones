@@ -2,7 +2,6 @@
 
 - "Leather" recipe
 - Expand enchanting system
-  - Darksight
   - Naturesight
   - Fabricsight
   - Light effects
@@ -14,6 +13,5 @@
 - WT trade replacement
 - Do something about buckets
 - Loot
-  - Rabbit's foot
   - Glass bottle
 - Automation advancements

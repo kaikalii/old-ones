@@ -308,3 +308,10 @@ Blasting "iron" 6
   $$     }
   $$ }
 ))
+
+# Show darkness sphere
+▽<+0.5⟜(⊸(⍜˙×/+°⍉) ♭₂⧋-⟜(⇡ ↯3 +1×2)) 6
+/◇⊂₃@\n⍚°[°$"execute positioned ~_ ~_ ~_ run function oo:darksight/show\_darkness\_at"]
+$$ # Generated file
+$$ _
+&fwa "data/oo/function/darksight/show_darkness.mcfunction"

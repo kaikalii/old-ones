@@ -14,7 +14,7 @@
             "enchantment_glint_override": true,
             "use_cooldown": {
                 "seconds": 0.5,
-                "cooldown_group": "minecraft:experience_bottle"
+                "cooldown_group": "experience_bottle"
             },
             "rarity": "uncommon",
             "tooltip_display": {
