@@ -46,7 +46,7 @@ Armor                ← ⊂□"turtle_helmet" ♭⊞⍚$"_\__" ArmorPrefixes Ar
 Slots
 ⍚˙$$ execute if items entity @s _ *[lore=["Increased Potential"]] run return run item modify entity @s _ oo:increase\_potential
 ⊂{"# This file is generated"
-  "advancement grant @s only oo:story/enhance"
+  "advancement grant @s only oo:story/enchant"
   ""}
 /◇⊂₃ @\n
 &fwa "data/oo/function/enchant/player_increase.mcfunction"

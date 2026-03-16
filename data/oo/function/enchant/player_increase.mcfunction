@@ -1,5 +1,5 @@
 # This file is generated
-advancement grant @s only oo:story/enhance
+advancement grant @s only oo:story/enchant
 
 execute if items entity @s player.cursor *[lore=["Increased Potential"]] run return run item modify entity @s player.cursor oo:increase_potential
 execute if items entity @s container.0 *[lore=["Increased Potential"]] run return run item modify entity @s container.0 oo:increase_potential

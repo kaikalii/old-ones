@@ -6,7 +6,6 @@
   - Naturesight
   - Fabricsight
   - Light effects
-  - Recipe advancements
 - Make pigs do something
 - Item movement mechanics
   - Elevation?
@@ -16,4 +15,5 @@
 - Do something about buckets
 - Loot
   - Rabbit's foot
+  - Glass bottle
 - Automation advancements

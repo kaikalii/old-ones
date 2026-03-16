@@ -1,0 +1,18 @@
+{
+    "parent": "oo:story/potential_potion",
+    "criteria": {
+        "manual": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "title": "The Start of Something Great",
+        "description": "Increase the potential of a piece of equipment at a Smithing Table",
+        "icon": {
+            "id": "smithing_table",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        }
+    }
+}

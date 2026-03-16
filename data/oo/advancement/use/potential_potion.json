@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "drinking": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": "potion",
+                    "components": {
+                        "custom_name": {
+                            "text": "Potion of Potential",
+                            "italic": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "oo:enchant/drinking_potion"
+    }
+}

@@ -6,10 +6,10 @@
         }
     },
     "display": {
-        "title": "John Smith",
-        "description": "Enchance a piece of equipment at a Smithing Table",
+        "title": "Bottled Potential",
+        "description": "Craft and drink a Potion of Potential",
         "icon": {
-            "id": "smithing_table"
+            "id": "experience_bottle"
         }
     }
 }

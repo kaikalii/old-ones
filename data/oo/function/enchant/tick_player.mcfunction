@@ -1,5 +1,11 @@
+# Increase potential
 execute if items entity @s player.cursor *[lore=["Increased Potential"]] run function oo:enchant/player_increase
 execute if items entity @s container.* *[lore=["Increased Potential"]] run function oo:enchant/player_increase
+
+# Potential potions
+scoreboard players remove @s oo.drink 32
+execute if score @s oo.drink matches ..0 run scoreboard players set @s oo.drink 0
+execute if score @s oo.drink matches 32 run function oo:enchant/drank_potion
 
 # Get damage
 scoreboard players set #mainhand_damage oo 0

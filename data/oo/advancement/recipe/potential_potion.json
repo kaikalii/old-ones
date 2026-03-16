@@ -1,0 +1,46 @@
+{
+    "criteria": {
+        "has_lapis": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "lapis_lazuli"
+                    }
+                ]
+            }
+        },
+        "has_bottle": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "glass_bottle"
+                    }
+                ]
+            }
+        },
+        "has_water_bottle": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "potion"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_bottle",
+            "has_lapis",
+            "has_water_bottle"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "oo:potential_potion"
+        ]
+    }
+}
