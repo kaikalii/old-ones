@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "hit": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "#minecraft:arrows"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "oo:enchant/attacked/arrow"
+    }
+}

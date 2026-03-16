@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "hit": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_direct": true
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "oo:enchant/attacked/melee"
+    }
+}
