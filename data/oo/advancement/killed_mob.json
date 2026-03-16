@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "killed_mob": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "#oo:generic"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "oo:enchant/kill/mob"
+    }
+}

@@ -72,12 +72,12 @@ scoreboard players operation #legs_remaining oo -= #legs_damage oo
 scoreboard players operation #feet_remaining oo -= #feet_damage oo
 
 # Enchant
-execute if score #mainhand_remaining oo matches 1..5 run item modify entity @s weapon.mainhand oo:almost_broken
-execute if score #offhand_remaining oo matches 1..5 run item modify entity @s weapon.offhand oo:almost_broken
-execute if score #head_remaining oo matches 1..5 run item modify entity @s armor.head oo:almost_broken
-execute if score #chest_remaining oo matches 1..5 run item modify entity @s armor.chest oo:almost_broken
-execute if score #legs_remaining oo matches 1..5 run item modify entity @s armor.legs oo:almost_broken
-execute if score #feet_remaining oo matches 1..5 run item modify entity @s armor.feet oo:almost_broken
+execute if score #mainhand_remaining oo matches 1..5 run item modify entity @s weapon.mainhand oo:enchant/unbreaking
+execute if score #offhand_remaining oo matches 1..5 run item modify entity @s weapon.offhand oo:enchant/unbreaking
+execute if score #head_remaining oo matches 1..5 run item modify entity @s armor.head oo:enchant/unbreaking
+execute if score #chest_remaining oo matches 1..5 run item modify entity @s armor.chest oo:enchant/unbreaking
+execute if score #legs_remaining oo matches 1..5 run item modify entity @s armor.legs oo:enchant/unbreaking
+execute if score #feet_remaining oo matches 1..5 run item modify entity @s armor.feet oo:enchant/unbreaking
 # Do effect
 execute if score #mainhand_remaining oo matches 1..5 run function oo:enchant/effect
 execute if score #offhand_remaining oo matches 1..5 run function oo:enchant/effect

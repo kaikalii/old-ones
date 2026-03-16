@@ -1,0 +1,13 @@
+[
+    {
+        "function": "set_enchantments",
+        "enchantments": {
+            "quick_charge": 1
+        },
+        "add": true
+    },
+    {
+        "function": "reference",
+        "name": "oo:decrease_potential"
+    }
+]

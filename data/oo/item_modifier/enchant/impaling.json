@@ -1,0 +1,13 @@
+[
+    {
+        "function": "set_enchantments",
+        "enchantments": {
+            "impaling": 1
+        },
+        "add": true
+    },
+    {
+        "function": "reference",
+        "name": "oo:decrease_potential"
+    }
+]
