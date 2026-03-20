@@ -72,7 +72,9 @@ $$ {
 $$   "pack": {
 $$     "description": "Salvaging an old world",
 $$     "max\_format": 94,
-$$     "min\_format": 48
+$$     "min\_format": 48,
+$$     "pack\_format": 94,
+$$     "supported\_formats": [48, 94]
 $$   },
 $$   "filter": {
 $$     "block": [

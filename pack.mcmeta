@@ -2,7 +2,9 @@
   "pack": {
     "description": "Salvaging an old world",
     "max_format": 94,
-    "min_format": 48
+    "min_format": 48,
+    "pack_format": 94,
+    "supported_formats": [48, 94]
   },
   "filter": {
     "block": [
