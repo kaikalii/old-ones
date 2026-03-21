@@ -22,7 +22,7 @@
                     "potion_contents"
                 ]
             },
-            "max_stack_size": 16
+            "max_stack_size": 64
         }
     }
 }
