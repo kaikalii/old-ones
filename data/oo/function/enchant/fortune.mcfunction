@@ -46,5 +46,5 @@ scoreboard players operation @s oo.last_nether_gold_ore = @s oo.nether_gold_ore
 execute unless score @s oo.nether_quartz_ore = @s oo.last_nether_quartz_ore run scoreboard players set #do_fortune oo 1
 scoreboard players operation @s oo.last_nether_quartz_ore = @s oo.nether_quartz_ore
 
-execute store result score #rand oo run random value 1..100
+execute store result score #rand oo run random value 1..60
 execute if score #rand oo matches 1 if score #do_fortune oo matches 1 run function oo:enchant/with {slot:weapon.mainhand,ench:fortune}

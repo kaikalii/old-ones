@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "used": {
+            "trigger": "item_durability_changed",
+            "conditions": {
+                "item": {
+                    "items": "#oo:tools/all"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "oo:enchant/used_tool"
+    }
+}

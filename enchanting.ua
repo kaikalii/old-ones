@@ -118,9 +118,9 @@ ArmorDur ← [
      $ 
   | ⍚˙$$ execute unless score @s oo._ = @s oo.last\__ run scoreboard players set #do\_fortune oo 1
       $$ scoreboard players operation @s oo.last\__ = @s oo._
-  | □$ tellraw @s {score:{name:"#do_fortune",objective:"oo"}}
-     $ execute store result score #rand oo run random value 1..10
-     $ execute if score #rand oo matches 1 if score #do_fortune oo matches 1 run function oo:enchant/with {slot:weapon.mainhand,ench:fortune}
+  | □ $ 
+      $ execute store result score #rand oo run random value 1..60
+      $ execute if score #rand oo matches 1 if score #do_fortune oo matches 1 run function oo:enchant/with {slot:weapon.mainhand,ench:fortune}
   )
   &fwa "data/oo/function/enchant/fortune.mcfunction"
 )

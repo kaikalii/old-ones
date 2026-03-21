@@ -1,0 +1,13 @@
+[
+    {
+        "function": "set_enchantments",
+        "enchantments": {
+            "aqua_affinity": 1
+        },
+        "add": true
+    },
+    {
+        "function": "reference",
+        "name": "oo:decrease_potential"
+    }
+]
