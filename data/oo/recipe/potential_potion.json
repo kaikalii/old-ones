@@ -21,7 +21,8 @@
                 "hidden_components": [
                     "potion_contents"
                 ]
-            }
+            },
+            "max_stack_size": 16
         }
     }
 }
