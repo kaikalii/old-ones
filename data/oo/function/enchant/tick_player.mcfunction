@@ -74,10 +74,13 @@ scoreboard players operation #chest_remaining oo -= #chest_damage oo
 scoreboard players operation #legs_remaining oo -= #legs_damage oo
 scoreboard players operation #feet_remaining oo -= #feet_damage oo
 
-# Enchant
+# Enchant with unbreaking
 execute if score #mainhand_remaining oo matches 1..5 run function oo:enchant/with {slot:weapon.mainhand,ench:unbreaking}
 execute if score #offhand_remaining oo matches 1..5 run function oo:enchant/with {slot:weapon.offhand,ench:unbreaking}
 execute if score #head_remaining oo matches 1..5 run function oo:enchant/with {slot:armor.head,ench:unbreaking}
 execute if score #chest_remaining oo matches 1..5 run function oo:enchant/with {slot:armor.chest,ench:unbreaking}
 execute if score #legs_remaining oo matches 1..5 run function oo:enchant/with {slot:armor.legs,ench:unbreaking}
 execute if score #feet_remaining oo matches 1..5 run function oo:enchant/with {slot:armor.feet,ench:unbreaking}
+
+# Fortune
+execute if score #mainhand_potential oo >= #mainhand_pot_req oo run function oo:enchant/fortune
