@@ -15,5 +15,4 @@
 - Loot
   - Glass bottle
 - Automation advancements
-- Fix copper trapdoor recipe
 - Fix draining of furnaces
