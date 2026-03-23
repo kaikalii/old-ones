@@ -84,3 +84,10 @@ execute if score #feet_remaining oo matches 1..5 run function oo:enchant/with {s
 
 # Fortune
 execute if score #mainhand_potential oo >= #mainhand_pot_req oo run function oo:enchant/fortune
+
+# Feather falling
+execute store result score #dy oo run data get entity @s Motion[1] 10
+scoreboard players set #feather_falling oo 0
+execute store result score #feather_falling oo run data get entity @s equipment.feet.components."minecraft:enchantments"."minecraft:feather_falling"
+# tellraw @s {score:{name:"#dy",objective:"oo"}}
+execute if score #feet_potential oo >= #feet_pot_req oo unless score #feather_falling oo matches 4.. if score #dy oo matches ..-10 unless block ~ ~-1 ~ air run function oo:enchant/with {slot:armor.feet,ench:feather_falling}
