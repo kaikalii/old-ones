@@ -16,5 +16,4 @@
   - Glass bottle
 - Automation advancements
 - Fix copper trapdoor recipe
-- Make copper ore drop less
 - Fix draining of furnaces

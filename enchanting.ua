@@ -107,11 +107,11 @@ ArmorDur ← [
 | /◇⊂₃@\n⊂₃⊃(
     □$ # This file is generated
      $ execute unless items entity @s weapon.mainhand #pickaxes run return 0
-     $ execute if data entity @s SelectedItem.components."minecraft:enchantments"."minecraft:silk_touch" run return 0
+     $ execute if data entity @s SelectedItem.components."enchantments"."silk_touch" run return 0
      $ execute if score #mainhand_potential oo < #mainhand_pot_req oo run return 0
      $ 
      $ scoreboard players set #fortune oo 0
-     $ execute store result score #fortune oo run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:fortune"
+     $ execute store result score #fortune oo run data get entity @s SelectedItem.components."enchantments"."fortune"
      $ execute if score #fortune oo matches 3.. run return 0
      $ 
      $ scoreboard players set #do_fortune oo 0

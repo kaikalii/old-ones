@@ -1,0 +1,61 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "item",
+              "conditions": [
+                {
+                  "condition": "match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "enchantments": [
+                        {
+                          "enchantments": "silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "name": "copper_ore"
+            },
+            {
+              "type": "item",
+              "name": "raw_copper",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "uniform",
+                    "max": 3.0,
+                    "min": 1.0
+                  },
+                  "function": "set_count"
+                },
+                {
+                  "enchantment": "fortune",
+                  "formula": "ore_drops",
+                  "function": "apply_bonus"
+                },
+                {
+                  "function": "explosion_decay"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "blocks/copper_ore"
+}

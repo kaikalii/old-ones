@@ -1,0 +1,61 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "item",
+              "conditions": [
+                {
+                  "condition": "match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "enchantments": [
+                        {
+                          "enchantments": "silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "name": "deepslate_copper_ore"
+            },
+            {
+              "type": "item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "uniform",
+                    "max": 3.0,
+                    "min": 1.0
+                  },
+                  "function": "set_count"
+                },
+                {
+                  "enchantment": "fortune",
+                  "formula": "ore_drops",
+                  "function": "apply_bonus"
+                },
+                {
+                  "function": "explosion_decay"
+                }
+              ],
+              "name": "raw_copper"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "blocks/deepslate_copper_ore"
+}

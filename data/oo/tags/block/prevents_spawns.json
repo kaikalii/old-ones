@@ -1,7 +1,7 @@
 {
     "values": [
         "#oo:transparent",
-        "minecraft:dirt_path",
+        "dirt_path",
         "#trapdoors",
         "#doors",
         "#fences",
@@ -28,7 +28,7 @@
         "small_amethyst_bud",
         "medium_amethyst_bud",
         "large_amethyst_bud",
-        "#minecraft:copper_golem_statues",
+        "#copper_golem_statues",
         "#copper_chests",
         "chest",
         "trapped_chest"
