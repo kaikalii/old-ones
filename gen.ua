@@ -71,10 +71,10 @@ ColorNames ← {"white" "orange" "magenta" "light_blue" "yellow" "lime" "pink" "
 $$ {
 $$   "pack": {
 $$     "description": "Salvaging an old world",
-$$     "max\_format": 94,
+$$     "max\_format": 101,
 $$     "min\_format": 48,
-$$     "pack\_format": 94,
-$$     "supported\_formats": [48, 94]
+$$     "pack\_format": 101,
+$$     "supported\_formats": [48, 101]
 $$   },
 $$   "filter": {
 $$     "block": [

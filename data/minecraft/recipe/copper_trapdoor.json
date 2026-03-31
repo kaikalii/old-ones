@@ -5,11 +5,10 @@
     "#": "copper_ingot"
   },
   "pattern": [
-    "##",
-    "##"
+    "###"
   ],
   "result": {
     "count": 1,
-    "id": "copper_block"
+    "id": "copper_trapdoor"
   }
 }

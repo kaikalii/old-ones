@@ -14,4 +14,4 @@ execute as @s[nbt={Age:0s}] if items entity @s contents #oo:campfire_cooked if b
 # Filling
 execute as @s[nbt={OnGround:0b}] run return 0
 execute if block ~ ~-1 ~ barrel[facing=up] align xz run tp ~0.5 ~ ~0.5
-execute positioned ~ ~-1 ~ if block ~ ~ ~ barrel[facing=up,open=true] run function oo:fill/fill {max_size:27}
+execute positioned ~ ~-0.1 ~ if block ~ ~ ~ barrel[facing=up,open=true] run function oo:fill/fill {max_size:27}

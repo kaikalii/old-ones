@@ -15,4 +15,3 @@
 - Loot
   - Glass bottle
 - Automation advancements
-- Fix draining of furnaces
